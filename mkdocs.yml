@@ -1,0 +1,6 @@
+site_name: Docunautica en MarkDown
+nav:
+- Inicio: index.md
+- Introducción: intro.md
+- Capítulo 1: man1.md
+theme: readthedocs
