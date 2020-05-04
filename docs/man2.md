@@ -519,60 +519,55 @@ bases de datos, y definen el problema de diseñar una base de datos como:
 y señalan la existencia de seis fases en el proceso de diseño de una
 base de datos:
 
-> Fase 1: Recopilación y análisis de requerimientos.
->
-> En esta fase se trata de conocer las expectativas del usuario sobre la
-> base de datos. Para ello, se identifican los grupos de usuarios reales
-> y posibles y las áreas de aplicación, se revisa la documentación
-> existente, se analiza el entorno operativo y los requerimientos de
-> procesado, y se realizan entrevistas y cuestionarios con los usuarios.
-> Para todo ello existen técnicas formalizadas de especificación de
-> requerimientos.
->
-> Fase 2: Diseño conceptual de la base de datos.
->
-> Esta fase se subdivide en otras dos. La Fase 2a corresponde al Diseño
-> del esquema conceptual, esquema de especificación del modelo de datos
-> a alto nivel, independiente de cualquier SGBD, que no puede utilizarse
-> para implementar directamente la estructura de la base de datos. Para
-> obtenerlo puede adoptarse un enfoque de esquema centralizado (en el
-> cual se unen previamente los diferentes requerimientos a la
-> realización del esquema), o un enfoque de integración de vistas (en el
-> cual se unen los esquemas de cada requerimiento en uno global
-> realizado a posteriori). La Fase 2b corresponde al diseño de
-> transacciones, es decir, a aquellas aplicaciones que van a manipular
-> datos contenidos en la base de datos. Se suelen identificar mediante
-> el estudio de las entradas y salidas de datos y su comportamiento
-> funcional. De esta forma se identifican transacciones de recuperación,
-> de actualización y mixtas.
->
-> Fase 3: Elección de un SGBD.
->
-> Se consideran diferentes factores técnicos, económicos y de beneficio,
-> de servicio técnico y formación de usuarios, organizativos de
-> rendimiento, etc. Sin embargo, resulta difícil la medida y
-> cuantificación ponderada de los diferentes factores.
->
-> Fase 4: Transformación del modelo de datos (o fase de diseño lógico).
->
-> En esta fase se crea un esquema conceptual y los esquemas externos
-> necesarios en el modelo de datos del SGBD seleccionado, mediante la
-> transformación de los esquemas de modelo de datos a alto nivel
-> obtenidos en la Fase 2a, al modelo de datos ofrecido por el SGBD.
->
-> Fase 5: Diseño de la base de datos física.
->
-> Consiste en definir las estructuras de almacenamiento y de acceso para
-> alcanzar una rendimiento óptimo de las aplicaciones de la base de
-> datos. Los criterios adoptados suelen ser el tiempo de respuesta, la
-> utilización de espacio y el volumen de transacciones por minuto.
->
-> Fase 6: Implementación del sistema de base de datos.
->
-> En esta fase final se hace realidad la base de datos, mediante la
-> creación y la compilación del esquema de bases de datos y de los
-> ficheros de bases de datos, así como de las transacciones, a través de
-> las aplicaciones.
+*Fase 1: Recopilación y análisis de requerimientos.*
+
+En esta fase se trata de conocer las expectativas del usuario sobre la
+base de datos. Para ello, se identifican los grupos de usuarios reales
+y posibles y las áreas de aplicación, se revisa la documentación
+existente, se analiza el entorno operativo y los requerimientos de
+procesado, y se realizan entrevistas y cuestionarios con los usuarios.
+Para todo ello existen técnicas formalizadas de especificación de
+requerimientos.
+
+*Fase 2: Diseño conceptual de la base de datos.*
+
+Esta fase se subdivide en otras dos. La Fase 2a corresponde al Diseño del esquema conceptual, esquema de especificación del modelo de datos
+a alto nivel, independiente de cualquier SGBD, que no puede utilizarse
+para implementar directamente la estructura de la base de datos. Para
+obtenerlo puede adoptarse un enfoque de esquema centralizado (en el
+cual se unen previamente los diferentes requerimientos a la
+realización del esquema), o un enfoque de integración de vistas (en el
+cual se unen los esquemas de cada requerimiento en uno global
+realizado a posteriori). La Fase 2b corresponde al diseño de
+transacciones, es decir, a aquellas aplicaciones que van a manipular
+datos contenidos en la base de datos. Se suelen identificar mediante
+el estudio de las entradas y salidas de datos y su comportamiento
+funcional. De esta forma se identifican transacciones de recuperación,
+de actualización y mixtas.
+
+*Fase 3: Elección de un SGBD.*
+
+Se consideran diferentes factores técnicos, económicos y de beneficio, de servicio técnico y formación de usuarios, organizativos de
+rendimiento, etc. Sin embargo, resulta difícil la medida y
+cuantificación ponderada de los diferentes factores.
+
+*Fase 4: Transformación del modelo de datos (o fase de diseño lógico).*
+
+En esta fase se crea un esquema conceptual y los esquemas externos necesarios en el modelo de datos del SGBD seleccionado, mediante la
+transformación de los esquemas de modelo de datos a alto nivel
+obtenidos en la Fase 2a, al modelo de datos ofrecido por el SGBD.
+
+*Fase 5: Diseño de la base de datos física.*
+
+Consiste en definir las estructuras de almacenamiento y de acceso para alcanzar una rendimiento óptimo de las aplicaciones de la base de
+datos. Los criterios adoptados suelen ser el tiempo de respuesta, la
+utilización de espacio y el volumen de transacciones por minuto.
+
+*Fase 6: Implementación del sistema de base de datos.*
+
+En esta fase final se hace realidad la base de datos, mediante la creación y la compilación del esquema de bases de datos y de los
+ficheros de bases de datos, así como de las transacciones, a través de
+las aplicaciones.
 
 La metodología expuesta, que puede servir como marco de referencia
 general, puede modificarse según las características del contexto en el
