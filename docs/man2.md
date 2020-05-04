@@ -1,38 +1,13 @@
 # **2. LOS SISTEMAS DE BASES DE DATOS Y LOS SGBD.**
 
-> *Lecturas recomendadas*: ELMASRI y NAVATHE, 1989; MIGUEL y PIATTINI,
-> 1993; FROST, 1989; KORTH y SILBERSCHATZ, 1993; MOTA, CELMA y
-> CASAMAYOR, 1994; BATINI, CERI y NAVATHE, 1994; JACKSON, 1990;
-> REINGRUBER y GREGORY, 1994, BERTINO y MARTINO, 1995.
+> *Lecturas recomendadas*: ELMASRI y NAVATHE, 1989; MIGUEL y PIATTINI, 1993; FROST, 1989; KORTH y SILBERSCHATZ, 1993; MOTA, CELMA y CASAMAYOR, 1994; BATINI, CERI y NAVATHE, 1994; JACKSON, 1990; REINGRUBER y GREGORY, 1994, BERTINO y MARTINO, 1995.
 
-Una de las conclusiones obtenidas en el capítulo anterior era que los
-recursos de información, y los mecanismos necesarios para su
-interrogación, resultaban ser uno de los objetivos fundamentales en los
-sistemas de información que debían hacer frente a grandes cantidades de
-documentos e información en diferentes formatos y soportes. Y uno de los
-componentes principales de estos sistemas son las bases de datos, o, más
-concretamente, los sistemas de bases de datos. Resultará evidente, por
-otra parte, que la gestión del gran volumen de datos demandará una
-teoría sobre la organización de esos datos para alcanzar la máxima
-efectividad posible. En este capítulo se va a efectuar una revisión de
-los principios que inspiran la arquitectura y el diseño de sistemas de
-bases de datos, poniendo especial interés en el modelo entidad-relación,
-por cuanto será el utilizado más adelante para el diseño de las bases de
-datos con sistemas de gestión de bases de datos relacionales, ya que
-gran parte de los métodos de modelado conceptual pueden utilizarse
-igualmente en la construcción de bases de datos documentales.
+Una de las conclusiones obtenidas en el capítulo anterior era que los recursos de información, y los mecanismos necesarios para su interrogación, resultaban ser uno de los objetivos fundamentales en los
+sistemas de información que debían hacer frente a grandes cantidades de documentos e información en diferentes formatos y soportes. Y uno de los componentes principales de estos sistemas son las bases de datos, o, más concretamente, los sistemas de bases de datos. Resultará evidente, por otra parte, que la gestión del gran volumen de datos demandará una teoría sobre la organización de esos datos para alcanzar la máxima efectividad posible. En este capítulo se va a efectuar una revisión de los principios que inspiran la arquitectura y el diseño de sistemas de bases de datos, poniendo especial interés en el modelo entidad-relación, por cuanto será el utilizado más adelante para el diseño de las bases de datos con sistemas de gestión de bases de datos relacionales, ya que gran parte de los métodos de modelado conceptual pueden utilizarse igualmente en la construcción de bases de datos documentales.
 
 ## **2.1. Las bases de datos**.
 
-En el entorno informático, la gestión de bases de datos ha evolucionado
-desde ser una aplicación más disponible para los computadores, a ocupar
-un lugar fundamental en los sistemas de información. En la actualidad,
-un sistema de información será más valioso cuanto de mayor calidad sea
-la base de datos que lo soporta, la cual resulta a su vez un componente
-fundamental del mismo, de tal forma que puede llegarse a afirmar que es
-imposible la existencia de un sistema de información sin una base de
-datos, que cumple la función de \"memoria\", en todas sus acepciones
-posibles, del sistema.
+En el entorno informático, la gestión de bases de datos ha evolucionadodesde ser una aplicación más disponible para los computadores, a ocupar un lugar fundamental en los sistemas de información. En la actualidad, un sistema de información será más valioso cuanto de mayor calidad sea la base de datos que lo soporta, la cual resulta a su vez un componente fundamental del mismo, de tal forma que puede llegarse a afirmar que es imposible la existencia de un sistema de información sin una base de datos, que cumple la función de "memoria", en todas sus acepciones posibles, del sistema.
 
 Las bases de datos almacenan, como su nombre dice, datos. Estos datos
 son representaciones de sucesos y objetos, a diferente nivel, existentes
@@ -55,22 +30,22 @@ datos, independientemente de su diseño y/o su orientación. Entre las
 numerosas definiciones que pueden encontrarse en la bibliografía, pueden
 escogerse, por su exhaustividad, las siguientes:
 
-> \"Colección de datos correspondientes a las diferentes perspectivas de
+> "Colección de datos correspondientes a las diferentes perspectivas de
 > un sistema de información (de una empresa o institución), existentes
 > en algún soporte de tipo físico (normalmente de acceso directo),
 > agrupados en una organización integrada y centralizada en la que
 > figuran no sólo los datos en sí, sino también las relaciones
 > existentes entre ellos, y de forma que se minimiza la redundancia y se
 > maximiza la independencia de los datos de las aplicaciones que los
-> requieren.\" (GUILERA, 1993: 377)
+> requieren." (GUILERA, 1993: 377)
 >
-> \"Una base de datos es una colección de datos estructurados según un
+> "Una base de datos es una colección de datos estructurados según un
 > modelo que refleje las relaciones y restricciones existentes en el
 > mundo real. Los datos, que han de ser compartidos por diferentes
 > usuarios y aplicaciones, deben mantenerse independientes de éstas, y
 > su definición y descripción han de ser únicas estando almacenadas
 > junto a los mismos. Por último, los tratamientos que sufran estos
-> datos tendrán que conservar la integridad y seguridad de éstos.\"
+> datos tendrán que conservar la integridad y seguridad de éstos."
 > (MOTA, CELMA y CASAMAYOR, 1994: 9)
 
 La segunda definición añade los objetivos que debe cumplir un sistema de
@@ -121,20 +96,9 @@ arquitectura la base de datos se divide en los niveles externo,
 conceptual e interno (KORTH y SILBERSCHATZ, 1994:5; MIGUEL y PIATTINI,
 1993: 83-107; MOTA, CELMA y CASAMAYOR, 1994: 11-12):
 
-> 1\. Nivel interno: es el nivel más bajo de abstracción, y define cómo
-> se almacenan los datos en el soporte físico, así como los métodos de
-> acceso.
->
-> 2\. Nivel conceptual: es el nivel medio de abstracción. Se trata de la
-> representación de los datos realizada por la organización, que recoge
-> las vistas parciales de los requerimientos de los diferentes usuarios
-> y las aplicaciones posibles. Se configura como visión organizativa
-> total, e incluye la definición de datos y las relaciones entre ellos
-
-3.  Nivel externo: es el nivel de mayor abstracción. A este nivel
-    > corresponden las diferentes vistas parciales que tienen de la base
-    > de datos los diferentes usuarios. En cierto modo, es la parte del
-    > modelo conceptual a la que tienen acceso.
+1. Nivel interno: es el nivel más bajo de abstracción, y define cómo  se almacenan los datos en el soporte físico, así como los métodos de acceso.
+2. Nivel conceptual: es el nivel medio de abstracción. Se trata de la representación de los datos realizada por la organización, que recoge las vistas parciales de los requerimientos de los diferentes usuarios y las aplicaciones posibles. Se configura como visión organizativa total, e incluye la definición de datos y las relaciones entre ellos.
+3. Nivel externo: es el nivel de mayor abstracción. A este nivel corresponden las diferentes vistas parciales que tienen de la base de datos los diferentes usuarios. En cierto modo, es la parte del modelo conceptual a la que tienen acceso.
 
 ![fig2_1](figs/fig2_1.jpg)
 
@@ -164,54 +128,49 @@ utilizado para la representación de las entidades y sus características
 dentro de la base de datos, y puede ser dividido en tres grandes tipos
 (KORTH y SILBERSCHATZ, 1993: 6-11):
 
-> 1\. Modelos lógicos basados en objetos: los dos más extendidos son el
-> modelo entidad-relación y el orientado a objetos. El modelo
-> entidad-relación (E-R) se basa en una percepción del mundo compuesta
-> por objetos, llamados entidades, y relaciones entre ellos. Las
-> entidades se diferencian unas de otras a través de atributos. El
-> orientado a objetos también se basa en objetos, los cuales contienen
-> valores y métodos, entendidos como órdenes que actúan sobre los
-> valores, en niveles de anidamiento. Los objetos se agrupan en clases,
-> relacionándose mediante el envío de mensajes. Algunos autores definen
-> estos modelos como \"modelos semánticos\".
->
-> 2\. Modelos lógicos basados en registros: el más extendido es el
-> relacional, mientras que los otros dos existentes, jerárquico y de
-> red, se encuentran en retroceso. Estos modelos se usan para
-> especificar la estructura lógica global de la base de datos,
-> estructurada en registros de formato fijo de varios tipos. El modelo
-> relacional representa los datos y sus relaciones mediante tablas
-> bidimensionales, que contienen datos tomados de los dominios
-> correspondientes. El modelo de red está formado por colecciones de
-> registros, relacionados mediante punteros o ligas en grafos
-> arbitrarios. el modelo jerárquico es similar al de red, pero los
-> registros se organizan como colecciones de árboles. Algunos autores
-> definen estos modelos como \"modelos de datos clásicos\".
->
-> 3\. Modelos físicos de datos: muy poco usados, son el modelo
-> unificador y el de memoria de elementos. Algunos autores definen estos
-> modelos como \"modelos de datos primitivos\".
+1. Modelos lógicos basados en objetos: los dos más extendidos son el
+   modelo entidad-relación y el orientado a objetos. El modelo
+   entidad-relación (E-R) se basa en una percepción del mundo compuesta
+   por objetos, llamados entidades, y relaciones entre ellos. Las
+   entidades se diferencian unas de otras a través de atributos. El
+   orientado a objetos también se basa en objetos, los cuales contienen
+   valores y métodos, entendidos como órdenes que actúan sobre los
+   valores, en niveles de anidamiento. Los objetos se agrupan en clases,
+   relacionándose mediante el envío de mensajes. Algunos autores definen
+   estos modelos como "modelos semánticos".
+2. Modelos lógicos basados en registros: el más extendido es el relacional, mientras que los otros dos existentes, jerárquico y de
+   red, se encuentran en retroceso. Estos modelos se usan para
+   especificar la estructura lógica global de la base de datos,
+   estructurada en registros de formato fijo de varios tipos. El modelo
+   relacional representa los datos y sus relaciones mediante tablas
+   bidimensionales, que contienen datos tomados de los dominios
+   correspondientes. El modelo de red está formado por colecciones de
+   registros, relacionados mediante punteros o ligas en grafos
+   arbitrarios. el modelo jerárquico es similar al de red, pero los
+   registros se organizan como colecciones de árboles. Algunos autores
+   definen estos modelos como "modelos de datos clásicos".
+3. Modelos físicos de datos: muy poco usados, son el modelo unificador y el de memoria de elementos. Algunos autores definen estos
+   modelos como "modelos de datos primitivos".
 
 De lo anterior se deduce que el punto clave en la construcción de la
 base de datos será el modelo de datos. Se denomina modelo:
 
-> \"\...al instrumento que se aplica a una parcela del mundo real
+> "...al instrumento que se aplica a una parcela del mundo real
 > (universo del discurso) para obtener una estructura de datos a la que
 > denominamos esquema. Esta distinción entre el modelo (instrumento) y
 > el esquema (resultado de aplicar el instrumento) es importante\... Es
 > importante también distinguir entre mundo real y universo del
 > discurso, ya que este último es la visión que del mundo real tiene el
-> diseñador\... podemos definir un modelo de datos como un conjunto de
+> diseñador... podemos definir un modelo de datos como un conjunto de
 > conceptos, reglas y convenciones que nos permiten describir los datos
-> del universo del discurso.\" (MIGUEL y PIATTINI, 1993: 162)
+> del universo del discurso." (MIGUEL y PIATTINI, 1993: 162)
 
 Los objetivos del modelo de datos son dos:
 
-> 1\. Formalización: definir formalmente las estructuras permitidas y
-> las restricciones a fin de representar los datos de un SI.
->
-> 2\. Diseño: el modelo resultante es un elemento básico para el
-> desarrollo de la metodología de diseño de la base de datos.
+1. Formalización: definir formalmente las estructuras permitidas y
+   las restricciones a fin de representar los datos de un SI.
+2. Diseño: el modelo resultante es un elemento básico para el
+   desarrollo de la metodología de diseño de la base de datos.
 
 Los diferentes modelos de datos comparten, aunque con diferentes nombres
 y notaciones, unos elementos comunes, componentes básicos de la
@@ -219,34 +178,27 @@ representación de la realidad que realizan. Estos componentes se
 identifican gracias a la clasificación, y pueden identificarse conceptos
 estáticos y conceptos dinámicos. Los conceptos estáticos corresponden a:
 
-> 1\. Objeto: cualquier entidad con existencia independiente sobre el
-> que almacenan datos. Puede ser simples o compuestos.
->
-> 2\. Relación: asociación entre objetos.
->
-> 3\. Restricción estática: propiedad estática del mundo real que no
-> puede expresarse con los anteriores, ya que sólo se da en la base de
-> datos; suele corresponder a valores u ocurrencias, y puede ser sobre
-> atributos, entidades y relaciones.
->
-> 4\. Objeto compuesto: definidos como nuevos objetos dentro de la base
-> de datos, tomando como punto de partida otros existentes, mediante
-> mecanismos de agregación y asociación.
->
-> 5\. Generalización: se trata de relaciones de subclase entre objetos,
-> es decir, parte de las características de diferentes entidades pueden
-> resultar comunes entre ellas.
+1. Objeto: cualquier entidad con existencia independiente sobre el
+   que almacenan datos. Puede ser simples o compuestos.
+2. Relación: asociación entre objetos.Restricción estática: propiedad estática del mundo real que no
+   puede expresarse con los anteriores, ya que sólo se da en la base de
+   datos; suele corresponder a valores u ocurrencias, y puede ser sobre
+   atributos, entidades y relaciones.
+3. Objeto compuesto: definidos como nuevos objetos dentro de la base
+   de datos, tomando como punto de partida otros existentes, mediante
+   mecanismos de agregación y asociación.
+4. Generalización: se trata de relaciones de subclase entre objetos,
+   es decir, parte de las características de diferentes entidades pueden
+   resultar comunes entre ellas.
 
 Por su parte, los conceptos dinámicos responden a:
 
-> 1\. Operación: acción básica sobre objetos o relaciones (crear,
-> modificar, eliminar\...).
->
-> 2\. Transacción: conjunto de operaciones que deben ejecutarse en su
-> conjunto obligatoriamente.
->
-> 3\. Restricción dinámica: propiedades del mundo real que restringen la
-> evolución en el tiempo de la base de datos.
+1. Operación: acción básica sobre objetos o relaciones (crear,
+   modificar, eliminar\...).
+2. Transacción: conjunto de operaciones que deben ejecutarse en su
+   conjunto obligatoriamente.
+3. Restricción dinámica: propiedades del mundo real que restringen la
+   evolución en el tiempo de la base de datos.
 
 ## **2.4. Los sistemas de gestión de bases de datos.**
 
@@ -265,29 +217,18 @@ e inconsistencias y mantener la integridad. Se han señalado como
 componentes de un sistema ideal de gestión de bases de datos los
 siguientes (FROST, 1989: 90):
 
-> 1\. Un lenguaje de definición de esquema conceptual.
->
-> 2\. Un sistema de diccionario de datos.
->
-> 3\. Un lenguaje de especificación de paquetes de entrada/salida.
->
-> 4\. Un lenguaje de definición de esquemas de base de datos.
->
-> 5\. Una estructura simétrica de almacenamiento de datos.
->
-> 6\. Un módulo de transformación lógica a física.
->
-> 7\. Un subsistema de privacidad de propósito general.
->
-> 8\. Un subsistema de integridad de propósito general.
->
-> 9\. Un subsistema de reserva y recuperación de propósito general.
->
-> 10\. Un generador de programas de aplicación.
->
-> 11\. Un generador de programas de informes.
->
-> 12\. Un lenguaje de consulta de propósito general.
+1. Un lenguaje de definición de esquema conceptual.
+2. Un sistema de diccionario de datos.
+3. Un lenguaje de especificación de paquetes de entrada/salida.
+4. Un lenguaje de definición de esquemas de base de datos.
+5. Una estructura simétrica de almacenamiento de datos.
+6. Un módulo de transformación lógica a física.
+7. Un subsistema de privacidad de propósito general.
+8. Un subsistema de integridad de propósito general.
+9. Un subsistema de reserva y recuperación de propósito general.
+10. Un generador de programas de aplicación.
+11. Un generador de programas de informes.
+12. Un lenguaje de consulta de propósito general.
 
 El SGBD incorpora como herramienta fundamental dos lenguajes, para la
 definición y la manipulación de los datos. El lenguaje de definición de
@@ -313,23 +254,16 @@ conveniente revisar los pasos o fases que sigue la ejecución de una
 tarea cualquiera por parte del sistema de gestión de bases de datos
 (MOTA, CELMA y CASAMAYOR, 1994: 13-14):
 
-> 1\. Petición de la aplicación del usuario.
->
-> 2\. Examen de la petición en el marco del esquema externo del usuario.
->
-> 3\. Transformación del esquema externo al lógico.
->
-> 4\. Transformación del esquema lógico al interno.
->
-> 5\. Interacción con el almacenamiento físico.
->
-> 6\. Envío de los datos a los buffers del SGBD.
->
-> 7\. Transformaciones de los datos entre el esquema lógico y el
-> externo.
->
-> 8\. Transferencia de los datos necesarios al área de trabajo del
-> usuario.
+1. Petición de la aplicación del usuario.
+2. Examen de la petición en el marco del esquema externo del usuario.
+3. Transformación del esquema externo al lógico.
+4. Transformación del esquema lógico al interno.
+5. Interacción con el almacenamiento físico.
+6. Envío de los datos a los buffers del SGBD.
+7. Transformaciones de los datos entre el esquema lógico y el
+   externo.
+8. Transferencia de los datos necesarios al área de trabajo del
+   usuario.
 
 ![fig2_2](figs/fig2_2.jpg)
 
@@ -366,8 +300,8 @@ GREGORY, 1994).
 
 El esquema conceptual puede definirse como una descripción abstracta y
 general de la parte o sector del universo real que el contenido de la
-base de datos va a representar, llamada en ocasiones \"universo del
-discurso\". En este nivel de análisis se está tratando con una
+base de datos va a representar, llamada en ocasiones "universo del
+discurso". En este nivel de análisis se está tratando con una
 descripción de la realidad, no con datos, y suele contener listas de
 tipos de entidades, de las relaciones existentes entre esas entidades y
 de las restricciones de integridad que se aplican sobre ellas. El
@@ -395,8 +329,8 @@ obtener como resultado las partes del área de aplicación que deben
 representarse mediante datos, y en que forma deben presentarse éstos a
 los usuarios. El siguiente paso es el análisis de datos, consistente en
 la definición y clasificación de esos datos, su descripción, que suele
-presentarse en forma de diccionario de datos, como una \"metabase de
-datos\". Por último, debe hacerse la especificación de los paquetes de
+presentarse en forma de diccionario de datos, como una "metabase de
+datos". Por último, debe hacerse la especificación de los paquetes de
 entrada y de salida, correspondientes con los datos que deben introducir
 y obtener como respuesta los usuarios, según sus necesidades. Las tres
 tareas habrán permitido obtener tres documentos sobre descripción del
@@ -486,43 +420,35 @@ donde una ocurrencia se relaciona con otra; (1,m), donde una ocurrencia
 puede relacionarse con varias; y (m,n), donde varias ocurrencias de una
 entidad pueden relacionarse con varias ocurrencias de la otra entidad.
 
-El modelo de Chen es n-ario, lo cual quiere decir que las relaciones
-pueden establecerse entre una, dos o más entidades. Las entidades pueden
-ser de dos tipos:
-
-> 1\. Entidad regular: aquella sobre la que se puede definir la clave
-> primario dentro de sus propios atributos.
->
-> 2\. Entidad débil: aquellas que no puede utilizar sus propios
-> atributos como clave, al estar asociada a otra entidad.
+- El modelo de Chen es n-ario, lo cual quiere decir que las relaciones
+  pueden establecerse entre una, dos o más entidades. Las entidades pueden
+  ser de dos tipos:
+  Entidad regular: aquella sobre la que se puede definir la clave
+  primario dentro de sus propios atributos.
+- Entidad débil: aquellas que no puede utilizar sus propios atributos como clave, al estar asociada a otra entidad.
 
 La definición del modelo conceptual con la técnica propuesta por Chen
 propone una secuencia de fases para la obtención del modelo:
 
-> 1\. Identificar las entidades dentro del sistema: para ello, debe
-> conocerse el funcionamiento del sistema en estudio, a través de
-> estudios de usuarios, de necesidades de información, de tipos de
-> información, etc. Como guía puede utilizarse para la definición de las
-> entidades objetos reales, personas, actividades del sistema, objetos
-> abstractos, etc.
->
-> 2\. Determinar las claves o identificadores de entidades: señalar
-> aquellos atributos que identifiquen inequívocamente cada ocurrencia de
-> la entidad, y que no puedan ofrecer valores nulos.
->
-> 3\. Establecer las relaciones entre la entidades, describiendo el
-> grado de las mismas: estudiar las asociaciones entre las entidades,
-> para definir su importancia dentro del contexto del sistema, y obtener
-> su cardinalidad.
->
-> 4\. Dibujar el modelo de datos: representar gráficamente el modelo
-> obtenido.
->
-> 5\. Identificar y describir los atributos de cada entidad: señalar
-> aquellas propiedades de la entidad de interés para el sistema.
->
-> 6\. Verificaciones: eliminación de las relaciones redundantes y que
-> puedan ser obtenidas a través de combinar otras asociaciones.
+1. Identificar las entidades dentro del sistema: para ello, debe
+   conocerse el funcionamiento del sistema en estudio, a través de
+   estudios de usuarios, de necesidades de información, de tipos de
+   información, etc. Como guía puede utilizarse para la definición de las
+   entidades objetos reales, personas, actividades del sistema, objetos
+   abstractos, etc.
+2. Determinar las claves o identificadores de entidades: señalar
+   aquellos atributos que identifiquen inequívocamente cada ocurrencia de
+   la entidad, y que no puedan ofrecer valores nulos.
+3. Establecer las relaciones entre la entidades, describiendo el
+   grado de las mismas: estudiar las asociaciones entre las entidades,
+   para definir su importancia dentro del contexto del sistema, y obtener
+   su cardinalidad.
+4. Dibujar el modelo de datos: representar gráficamente el modelo
+   obtenido.
+5. Identificar y describir los atributos de cada entidad: señalar
+   aquellas propiedades de la entidad de interés para el sistema.
+6. Verificaciones: eliminación de las relaciones redundantes y que
+   puedan ser obtenidas a través de combinar otras asociaciones.
 
 El modelo obtenido se representa mediante una notación gráfica
 especializada, a través de diagramas, cuyas normas generales y variantes
@@ -540,9 +466,9 @@ y evitar las anomalías en las manipulaciones de datos. El objetivo será
 obtener un modelo lógico normalizado que represente las entidades
 normalizadas y las interrelaciones existentes entre ellas. Para ello, se
 toma como punto teórico de partida el concepto de dependencia funcional,
-que dice: \"Un atributo B depende funcionalmente de otro atributo A, de
+que dice: "Un atributo B depende funcionalmente de otro atributo A, de
 la misma entidad si a cada valor de A le corresponde sólo un valor de
-B.\" Lo anterior se completa mediante la dependencia funcional completa
+B." Lo anterior se completa mediante la dependencia funcional completa
 y la dependencia transitiva.
 
 El procedimiento de normalización consiste en someter a las tablas que
@@ -586,9 +512,9 @@ aparece una metodología consagrada. De esta forma, Elmasri y Navathe
 comparan el ciclo de diseño de los sistemas de información y de las
 bases de datos, y definen el problema de diseñar una base de datos como:
 
-> \"Desing the logical and physical structure of one or more databases
+> "Desing the logical and physical structure of one or more databases
 > to accommodate the information needs of the users in an organization
-> for a defined set of applications\"(ELMASRI y NAVATHE, 1989: 457)
+> for a defined set of applications"(ELMASRI y NAVATHE, 1989: 457)
 
 y señalan la existencia de seis fases en el proceso de diseño de una
 base de datos:

@@ -2,9 +2,9 @@ site_name: Introducción a la Documática, 1. Teoría.
 nav:
 - Inicio: index.md
 - Introducción: intro.md
-- Capítulo 1: man1.md
-- Capítulo 2: man2.md
-- Capítulo 3: man3.md
+- 1. HACIA UN CONCEPTO BÁSICO DE DOCUMENTACIÓN AUTOMÁTICA/DOCUMÁTICA.: man1.md
+- 2. LOS SISTEMAS DE BASES DE DATOS Y LOS SGBD.: man2.md
+- 3. LA RECUPERACIÓN DE INFORMACIÓN.: man3.md
 - Capítulo 4: man4.md
 - Capítulo 5: man5.md
 - Capítulo 6: man6.md

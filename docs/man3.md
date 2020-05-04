@@ -1,4 +1,4 @@
-**3. LA RECUPERACIÓN DE INFORMACIÓN.**
+# **3. LA RECUPERACIÓN DE INFORMACIÓN.**
 
 > *Lecturas recomendadas*: MEADOW, 1992; GARCÍA MARCO, 1995a, 1996a;
 > RIJSBERGEN, 1979; BLAIR, 1990; ELLIS, 1990, 1996; MACLEOD, 1991;
@@ -8,7 +8,7 @@
 > 1988; FROST, 1989; GIL LEIVA y RODRÍGUEZ MUÑOZ, 1996; RIJSBERGEN y
 > LALMAS, 1996; TURTLE y FLOOD, 1995.
 
-**3.1. Concepto de recuperación de información.**
+## **3.1. Concepto de recuperación de información.**
 
 Cuando un usuario se plantea la necesidad de obtener nueva información
 sobre un asunto o materia de su interés, está manifestando una carencia,
@@ -38,7 +38,7 @@ se ha señalado en la introducción, que la informatización de estas
 tareas se engloba dentro del campo de la Documentación Automatizada o
 Informática Documental.
 
-**Fig.3.1. Proceso genérico de recuperación de información.**
+Fig.3.1. Proceso genérico de recuperación de información.
 
 En principio, la recuperación de información engloba las acciones
 encaminadas a identificar, seleccionar y acceder a los recursos de
@@ -91,27 +91,24 @@ Ha sido Blair (BLAIR, 1990: 2-4) quien ha resumido las diferencias entre
 (recuperación de información, RI), utilizando como criterios las
 siguientes cuestiones:
 
-> 1\. Según la forma de responder a la pregunta: en RD se utilizan
-> preguntas altamente formalizadas, cuya respuesta es directamente la
-> información deseada. En RI las preguntas resultan difíciles de
-> trasladar a un lenguaje normalizado, y la respuesta es un conjunto de
-> documentos que pueden contener, sólo probablemente, lo deseado, con un
-> evidente factor de indeterminación.
->
-> 2\. Según la relación entre el requerimiento al sistema y la
-> satisfacción de usuario: en RD la relación es determinística entre la
-> pregunta y la satisfacción. En RI es probabilística, a causa del nivel
-> de incertidumbre presente en la respuesta.
->
-> 3\. Según el criterio de éxito: en RD el criterio a emplear es la
-> corrección y la exactitud, mientras que en RI el único criterio de
-> valor es la satisfacción del usuario, basada en un criterio personal
-> de utilidad.
->
-> 4\. Según la rapidez de respuesta: en RD depende del soporte físico y
-> de la perfección del algoritmo de búsqueda y de los índices. En RI
-> depende de las decisiones y acciones del usuario durante el proceso de
-> interrogación.
+- Según la forma de responder a la pregunta: en RD se utilizan
+  preguntas altamente formalizadas, cuya respuesta es directamente la
+  información deseada. En RI las preguntas resultan difíciles de
+  trasladar a un lenguaje normalizado, y la respuesta es un conjunto de
+  documentos que pueden contener, sólo probablemente, lo deseado, con un
+  evidente factor de indeterminación.
+- Según la relación entre el requerimiento al sistema y la
+  satisfacción de usuario: en RD la relación es determinística entre la
+  pregunta y la satisfacción. En RI es probabilística, a causa del nivel
+  de incertidumbre presente en la respuesta.
+- Según el criterio de éxito: en RD el criterio a emplear es la
+  corrección y la exactitud, mientras que en RI el único criterio de
+  valor es la satisfacción del usuario, basada en un criterio personal
+  de utilidad.
+- Según la rapidez de respuesta: en RD depende del soporte físico y
+  de la perfección del algoritmo de búsqueda y de los índices. En RI
+  depende de las decisiones y acciones del usuario durante el proceso de
+  interrogación.
 
 Ha señalado este autor la importancia, en ocasiones ignorada, que tiene
 el factor de predicción. Predicción por parte del usuario, ya que éste
@@ -122,7 +119,7 @@ terminológico. Este criterio de predicción es otro de los elementos que
 desempeñan un papel fundamental en el complejo proceso de la
 recuperación de información.
 
-**3.2. El problema de los lenguajes.**
+## **3.2. El problema de los lenguajes.**
 
 Una de las cuestiones a considerar es el problema planteado por la
 traslación de los conceptos a diferentes tipos de lenguajes, cada uno de
@@ -183,7 +180,7 @@ lenguajes documentales y los lenguajes informáticos, más limitados y
 rigurosos. Se trataría, en este caso, de desarrollar intermediarios que
 facilitasen las transformaciones, de forma transparente para el usuario.
 
-**3.3. El proceso de recuperación.**
+## **3.3. El proceso de recuperación.**
 
 Como se ha señalado anteriormente, el proceso de recuperación de
 información engloba numerosas tareas, de las que la consulta de recursos
@@ -195,32 +192,24 @@ se haga referencia a estas funciones a lo largo de la exposición. Un
 proceso de recuperación, al que podríamos considerar "genérico" (BELKIN
 y CROFT, 1987) seguiría las siguientes fases:
 
-> 1\. Definición de las necesidades informativas del usuario.
->
-> 2\. Selección y ordenación de las fuentes a utilizar.
->
-> 3\. Traslación de las necesidades del usuario al lenguaje documental
-> propio de la fuente a utilizar en cada caso. Es posible, además,
-> encontrar fuentes en las que no se utilice ningún tipo de vocabulario
-> controlado, en cuyo caso resultará necesario afinar el trabajo
-> terminológico.
->
-> 4\. Traducción de la expresión de lenguaje documental al lenguaje de
-> interrogación propio de cada sistema.
->
-> 5\. Ejecución de las expresiones del lenguaje de interrogación
-> obtenidas.
->
-> 6\. Consulta de las respuestas obtenidas, para analizar su pertinencia
-> o no a la cuestión planteada.
->
-> 7\. Replanteamiento, si procede, de las expresiones utilizadas, si los
-> resultados obtenidos no son pertinentes.
->
-> 8\. Selección y obtención de los documentos que respondan a las
-> necesidades manifestadas por el usuario.
->
-> 9\. Transmisión del resultado, preparado adecuadamente, al usuario.
+1. Definición de las necesidades informativas del usuario.
+2. Selección y ordenación de las fuentes a utilizar.
+3. Traslación de las necesidades del usuario al lenguaje documental
+   propio de la fuente a utilizar en cada caso. Es posible, además,
+   encontrar fuentes en las que no se utilice ningún tipo de vocabulario
+   controlado, en cuyo caso resultará necesario afinar el trabajo
+   terminológico.
+4. Traducción de la expresión de lenguaje documental al lenguaje de
+   interrogación propio de cada sistema.
+5. Ejecución de las expresiones del lenguaje de interrogación
+   obtenidas.
+6. Consulta de las respuestas obtenidas, para analizar su pertinencia
+   o no a la cuestión planteada.
+7. Replanteamiento, si procede, de las expresiones utilizadas, si los
+   resultados obtenidos no son pertinentes.
+8. Selección y obtención de los documentos que respondan a las
+   necesidades manifestadas por el usuario.
+9. Transmisión del resultado, preparado adecuadamente, al usuario.
 
 Todas las fases son susceptibles de tratamiento informático, aunque éste
 queda claramente resaltado en las fases 5, 6 y 8. La perspectiva
@@ -231,7 +220,7 @@ necesario puntualizar que la expansión y la aparición de nuevas técnicas
 informáticas pueden modificar tanto el planteamiento como la ejecución
 de las acciones encaminadas a acceder a la información.
 
-**Fig.3.2. Proceso de recuperación en un entorno informático.**
+Fig.3.2. Proceso de recuperación en un entorno informático.
 
 Resulta necesario realizar una última aclaración, referida a la
 utilización del término "estrategia". La bibliografía suele utilizar
@@ -246,7 +235,7 @@ conjunto de ecuaciones de consulta es más una táctica, siendo la
 estrategia la planificación de consulta de fuentes, los criterios de
 selección de las mismas, etc.
 
-**3.4. Lenguajes de interrogación y operadores.**
+## **3.4. Lenguajes de interrogación y operadores.**
 
 Se puede definir a un lenguaje de interrogación como un conjunto de
 órdenes, operadores y estructuras que, organizados según unas normas
@@ -284,7 +273,7 @@ expresar las relaciones que mantienen entre sí los términos que definen
 informativas del usuario. Pueden distinguirse diferentes tipos de
 operadores (SALTON y MCGILL, 1983), que se analizan a continuación.
 
-*3.4.1. Operadores lógicos (o booleanos).*
+### *3.4.1. Operadores lógicos (o booleanos).*
 
 Los operadores lógicos, llamados booleanos en honor a George Boole,
 precursor de la lógica simbólica y del álgebra de conjuntos, son los más
@@ -306,9 +295,9 @@ específico del término en el contexto. En segundo lugar, exigen un alto
 valor de precisión en los términos utilizados. Por último requieren
 claridad en la composición de las expresiones a buscar.
 
-**Fig. 3.3. Los tres operadores booleano básicos.**
+Fig. 3.3. Los tres operadores booleano básicos.
 
-*3.4.2. Operadores posicionales.*
+### *3.4.2. Operadores posicionales.*
 
 La utilización de operadores posicionales pretende superar algunas de la
 limitaciones que ofrecen los operadores booleanos. Toman como punto de
@@ -318,7 +307,7 @@ del propio registro, es significativa para valorar su pertinencia a los
 objetivos buscados. Los operadores posicionales pueden dividirse en dos
 tipos:
 
-3.4.2.1. Posicionales absolutos.
+#### 3.4.2.1. Posicionales absolutos.
 
 Son aquellos que permiten buscar un término en un lugar dado del
 documento o registro. Por regla general, son operadores de campo, es
@@ -328,7 +317,7 @@ presencia del término en un campo dado (por ejemplo, en el campo
 título), puede ser una garantía de la adecuación del documento a los
 objetivos, en la mayor parte de las situaciones.
 
-3.4.2.2. Posicionales relativos.
+#### 3.4.2.2. Posicionales relativos.
 
 También llamados de proximidad, se trata de operadores que permiten
 establecer la posición de un término respecto a otro dado. Se considera
@@ -337,7 +326,7 @@ relación entre los conceptos reflejados por los mismos. Estos operadores
 permiten definir el nivel de proximidad entre los términos (mismo campo,
 línea, frase, número de términos significativos que los separa\...).
 
-*3.4.3. Operadores de comparación.*
+### *3.4.3. Operadores de comparación.*
 
 Especifican el rango de búsqueda, fijando unos límites para la misma.
 Estos límites pueden ser tanto numéricos como alfabéticos,
@@ -345,7 +334,7 @@ correspondiendo los operadores a formas del tipo "mayor que", "menor o
 igual que". Se utilizan principalmente en documentos que pueden contener
 datos numéricos.
 
-*3.4.4. Operadores de truncamiento.*
+### *3.4.4. Operadores de truncamiento.*
 
 Pueden darse situaciones en las cuales sea necesario utilizar no un
 término simple, sino también sus derivados, fijados por prefijación o
@@ -383,7 +372,7 @@ posicional absoluto. Además, los paréntesis pueden anidarse,
 resolviéndose las ecuaciones planteadas desde dentro hacia fuera, de la
 misma forma que las igualdades y polinomios matemáticos.
 
-**3.5. Estrategia de la interrogación.**
+## **3.5. Estrategia de la interrogación.**
 
 Los lenguajes, sus órdenes y operadores son utilizados dentro del
 proceso de recuperación de información, la cual se encuentra almacenada
@@ -415,7 +404,7 @@ a utilizar durante las consultas, límites preestablecidos (por el
 usuario o el sistema)\... todas ellas afectan y modifican el enfoque del
 interrogador.
 
-*3.5.1. Tipos de estrategia.*
+### *3.5.1. Tipos de estrategia.*
 
 En el momento actual, parece más adecuado utilizar el término para
 identificar el plan general de búsqueda. No existe una única ni perfecta
@@ -430,53 +419,42 @@ de búsqueda, que pueden clasificarse en dos grandes grupos, sin
 perjuicio de que puedan darse situaciones en las que se combinen
 (MEADOW, 1992: 243-251; BATES, 1981; TURTLE y FLOOD, 1995):
 
-> 1\. Categorización por objetivo:
->
-> \- Búsqueda de elemento conocido: se trata de búsquedas en las cuales
-> el interrogador sabe cual será la respuesta, cuyo contenido, por
-> ejemplo, utiliza para completar una referencia bibliográfica, o
-> utiliza un número de inventario para comprobar el contenido de un
-> registro dado.
->
-> \- Búsqueda de información específica: el interrogador busca una
-> información específica dada, generalmente sobre un tema concreto y
-> limitado, como trabajos publicados en un año o por un autor.
->
-> \- Búsqueda de información general: intenta buscar la información
-> sobre una materia o asunto, de forma general, que obtenga una visión
-> global del estado de la misma.
->
-> \- Exploración de la base de datos: se trata de conocer que tipos de
-> información y/o documentos se encuentran almacenados en la base de
-> datos, a qué pueden responder y cómo pueden utilizarse.
->
-> 2\. Categorización por plan de operación:
->
-> \- Búsqueda directa: se trata de una aproximación expeditiva, en la
-> que se intenta resolver el problema con la formulación de una única
-> consulta. Como puede deducirse, resulta difícil obtener buenos
-> resultados con la misma.
->
-> \- Búsqueda "breve": es una evolución de la anterior, en la que se
-> trata de recuperar unos ítems significativos entre un gran número
-> obtenido tras una sola ecuación.
->
-> \- Ampliación: comienza con ecuaciones muy restrictivas, que ofrezcan
-> documentos pertinentes. Tras analizar la respuesta, el usuario puede
-> ampliar o expandir las ecuaciones de búsqueda hasta recuperar toda la
-> información existente. Puede ofrecer problemas si la ecuación inicial
-> no es adecuada.
->
-> \- Restricción: opuesta a la anterior, formula ecuaciones que ofrecen
-> resultados muy amplios, para posteriormente utilizar ecuaciones más
-> restrictivas, hasta delimitar los documentos pertinentes.
->
-> \- Construcción de bloques: intenta establecer bloques de información
-> que respondan a los componentes de su lógica, para combinarlos entre
-> sí posteriormente, hasta encontrar una combinación que responda a las
-> necesidades planteadas.
+1. Categorización por objetivo:
+   - Búsqueda de elemento conocido: se trata de búsquedas en las cuales
+     el interrogador sabe cual será la respuesta, cuyo contenido, por
+     ejemplo, utiliza para completar una referencia bibliográfica, o
+     utiliza un número de inventario para comprobar el contenido de un
+     registro dado.
+   - Búsqueda de información específica: el interrogador busca una
+     información específica dada, generalmente sobre un tema concreto y
+     limitado, como trabajos publicados en un año o por un autor.Búsqueda de información general: intenta buscar la información
+     sobre una materia o asunto, de forma general, que obtenga una visión
+     global del estado de la misma.
+   - Exploración de la base de datos: se trata de conocer que tipos de
+     información y/o documentos se encuentran almacenados en la base de
+     datos, a qué pueden responder y cómo pueden utilizarse.
+2. Categorización por plan de operación:
+   - Búsqueda directa: se trata de una aproximación expeditiva, en la
+     que se intenta resolver el problema con la formulación de una única
+     consulta. Como puede deducirse, resulta difícil obtener buenos
+     resultados con la misma.
+   - Búsqueda "breve": es una evolución de la anterior, en la que se
+     trata de recuperar unos ítems significativos entre un gran número
+     obtenido tras una sola ecuación.
+   - Ampliación: comienza con ecuaciones muy restrictivas, que ofrezcan
+     documentos pertinentes. Tras analizar la respuesta, el usuario puede
+     ampliar o expandir las ecuaciones de búsqueda hasta recuperar toda la
+     información existente. Puede ofrecer problemas si la ecuación inicial
+     no es adecuada.
+   - Restricción: opuesta a la anterior, formula ecuaciones que ofrecen
+     resultados muy amplios, para posteriormente utilizar ecuaciones más
+     restrictivas, hasta delimitar los documentos pertinentes.
+   - Construcción de bloques: intenta establecer bloques de información
+     que respondan a los componentes de su lógica, para combinarlos entre
+     sí posteriormente, hasta encontrar una combinación que responda a las
+     necesidades planteadas.
 
-**3.6. La exploración como mecanismo de recuperación.**
+## **3.6. La exploración como mecanismo de recuperación.**
 
 Las limitaciones inherentes al proceso de recuperación mediante
 ecuaciones han conducido a experimentar otras aproximaciones. Una de las
@@ -504,7 +482,7 @@ desarrollar los enfoques cognitivos, poniendo su énfasis en el
 intermediario que debe existir entre el modelo del usuario y el modelo
 del sistema.
 
-**3.7. Revisión y análisis de resultados.**
+## **3.7. Revisión y análisis de resultados.**
 
 El resultado de la ejecución de una ecuación de búsqueda es un conjunto
 de documentos que cumplen las condiciones expresadas en la ecuación. Se
@@ -540,11 +518,10 @@ MARCO, 1996a: 63). Estos parámetros combinan el número de documentos
 pertinentes y no pertinentes, y recuperados y no recuperados, según las
 siguientes fórmulas (HEAPS, 1978: 28):
 
-  -------------- ------------- ----------------
-                 Pertinentes   No pertinentes
-  Extraídos      a             b
-  No extraídos   c             d
-  -------------- ------------- ----------------
+|              | Pertinentes | No pertinentes |
+| ------------ | :---------: | :------------: |
+| Extraídos    |      a      |       b        |
+| No extraídos |      c      |       d        |
 
 La tasa de llamada responde a la fórmula a/(a+c), y debería situarse
 entre el 0,6 y el 0,8. La tasa de precisión responde a la fórmula
@@ -554,7 +531,7 @@ en situaciones normales de recuperación de información, por lo que se
 suelen utilizar técnicas estadísticas y de muestreo para obtener valores
 fiables.
 
-**3.8. Recuperación de información y sistemas expertos.**
+## **3.8. Recuperación de información y sistemas expertos.**
 
 Los sistemas expertos, con su capacidad para combinar información y
 reglas de actuación, han sido vistos como una de las posibles soluciones
