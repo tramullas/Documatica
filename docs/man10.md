@@ -1,12 +1,14 @@
 # **10. INFORMATIZACIÓN DE UNIDADES DE INFORMACIÓN. AUTOMATIZACIÓN DE BIBLIOTECAS.**
 
+------
+
 > *Lecturas recomendadas*: ORERA, 1996; MANDELBAUM, 1992; HOLT, 1987;
 > CLAYTON, 1991; CLAYTON y BATT, 1992; MOYA, 1994; GREDLEY Y HOPKINSON,
 > 1990; HILDRETH, 1898; GARCÍA MARCO, 1995b; DUVAL y MAIN, 1992; WRIGHT,
 > 1995; SOCADI, 1992; BIBLIOTECA NACIONAL DE ESPAÑA, 1996; JACQUESSON,
 > 1995;
 
-**10.1. Las unidades de información como sistemas de información.**
+## **10.1. Las unidades de información como sistemas de información.**
 
 Las unidades de información, bien sean bibliotecas, archivos o centros
 de información y/o documentación, responden, en su más amplia acepción,
@@ -42,7 +44,7 @@ realiza en la biblioteca. Y esta premisa también permite considerar la
 informatización de otros tipos de unidades de información, como archivos
 y centros de documentación.
 
-**10.2. La informatización de unidades de información.**
+## **10.2. La informatización de unidades de información.**
 
 Las numerosas y complejas tareas que desarrollan las unidades de
 información, cualquiera que sea su tipo, encuentran en la información
@@ -88,7 +90,7 @@ expuestos en los párrafos anteriores son de aplicación a cualquier
 unidad de información, considerando siempre el entorno o contexto de la
 misma.
 
-**10.3. Los sistemas de informatización de bibliotecas.**
+## **10.3. Los sistemas de informatización de bibliotecas.**
 
 Los sistemas de informatización de bibliotecas ya han sido definidos con
 anterioridad como un tipo particular de los sistemas de gestión
@@ -120,8 +122,7 @@ parcial un sistema integrado. Es decir, poner en marcha únicamente
 determinados subsistemas, o bien, en aquellos sistemas que puede
 adquirirse por subsistemas, implantar sólo alguno de los posibles.
 
-**10.4. Funciones técnicas de un sistema de informatización de
-bibliotecas.**
+## **10.4. Funciones técnicas de un sistema de informatización de bibliotecas.**
 
 La explicación de las funciones técnicas que debe desempeñar un sistema
 de informatización de bibliotecas se va a realizar bajo la consideración
@@ -428,7 +429,7 @@ y la utilización de operadores booleanos
 externos, con objeto de permitir almacenamiento y comparación con los
 registros locales.
 
-**10.5. El Catálogo Público de Acceso en Línea.**
+## **10.5. El Catálogo Público de Acceso en Línea.**
 
 El OPAC (*Online Public Access Catalog*, o Catálogo Público de Acceso en
 Línea) es la interfaz que mantiene un sistema de automatización de
@@ -473,7 +474,7 @@ límites, es un elemento inherente al propio proceso de informatización
 de centro, que de ningún modo puede ser obviado o pospuesto frente a
 otros intereses.
 
-**10.6. El proceso de informatización.**
+## **10.6. El proceso de informatización.**
 
 La selección e implantación de un sistema de informatización de
 bibliotecas resulta ser una cuestión vital para el funcionamiento
@@ -508,68 +509,61 @@ enfoque sistémico para el proceso de informatización de la biblioteca,
 cuyas fases han sido señaladas por Clayton (CLAYTON, 1991; CLAYTON y
 BATT, 1992) :
 
-> 1.- Plan de desarrollo global: el plan de desarrollo global debe
-> establecer las fases del proceso, la duración de cada una de ellas,
-> los resultados esperados y el personal responsable. Este documento
-> debe fijar la estrategia general del proyecto de informatización.
->
-> 2.- Análisis de sistemas: esta fase debe desmenuzar, hasta sus niveles
-> más detallados, el funcionamiento del sistema bibliotecario existente,
-> que va a ser objeto de informatización. Estudiará todos los procesos,
-> recursos y normas existentes en el sistema, sus interacciones\...
-> Detallará los aciertos y errores del mismo, así como las acciones a
-> poner en marcha para lograr su optimización. El resultado de esta fase
-> será un completo y exhaustivo documento en el cual se especificaran
-> todas estas cuestiones.
->
-> 3.- Especificación de los requisitos o requerimientos: esta es una
-> parte crítica del proyecto. Deben detallarse todas y cada una de las
-> características y/o prestaciones que debe ofrecer el sistema
-> informático que se considera ideal para su implantación en la
-> biblioteca. La base de todos estos requerimientos serán las
-> necesidades que la biblioteca debe satisfacer para alcanzar el
-> conjunto de objetivos que tiene previstos.
->
-> 4.- Evaluación de sistemas: con la óptica del documento que contiene
-> los requerimientos, deben contemplarse las opciones que se ofrecen
-> para la selección de un sistema informatizado. La biblioteca puede
-> optar por desarrollar uno propio (lo cual resulta casi imposible en la
-> mayor parte de las situaciones), o adquirir alguno de los existentes
-> en el mercado, fabricados por terceras partes. En este segundo caso,
-> se remite a los proveedores el documento de requerimientos, a la
-> espera de sus propuestas. Las respuestas de éstos, así como el
-> análisis de la literatura especializada, y la visita e intercambio de
-> experiencias con otros usuarios, serán la base sobre la que tomar una
-> decisión.
->
-> 5.- Negociación del contrato y de sus condiciones: la selección de un
-> sistema debe seguirse por el contacto con el proveedor para negociar
-> las condiciones del contrato de compra. En este caso puede darse una
-> variada casuística, por lo que es recomendable atender, cuando menos,
-> a condiciones referidas a fechas de puesta en marcha, formación de
-> usuarios, mantenimiento y pruebas de aceptación, estado de propiedad
-> de las patentes, formas de pago, etc.
->
-> 6.- Puesta en marcha: la fase de puesta en marcha resulta ser la
-> culminación de proyecto. Puede ser parcial (en sucesivas fases), o
-> completa, lo que dependerá de la situación bibliotecaria. Sería
-> interesante disponer de un tiempo de prueba real, antes de la
-> aceptación total. En este contexto debe situarse la formación del
-> personal de la biblioteca en relación con el sistema, a diferentes
-> niveles. Deben considerarse, además, la legislación que puede afectar
-> al ámbito de trabajo y a los operarios del sistema.
->
-> 7.- Control y mantenimiento: el sistema necesitará mantenimiento y
-> control de las actividades que desarrolla, para su perfecto
-> funcionamiento y desempeño de sus funciones. Es necesario considerar
-> que el mantenimiento cubierto en los contratos de adquisición suele
-> cubrir el primer o primeros años, corriendo el gasto a cuenta de la
-> biblioteca posteriormente.
->
-> 8.- Renovación: los sistemas de informatización de bibliotecas no son
-> eternos ni perfectos, por lo que resulta ineludible considerar que
-> será necesaria su renovación y/o sustitución pasado determinado
-> período de tiempo.
+1. Plan de desarrollo global: el plan de desarrollo global debe
+   establecer las fases del proceso, la duración de cada una de ellas,
+   los resultados esperados y el personal responsable. Este documento
+   debe fijar la estrategia general del proyecto de informatización.
+2. Análisis de sistemas: esta fase debe desmenuzar, hasta sus niveles
+   más detallados, el funcionamiento del sistema bibliotecario existente,
+   que va a ser objeto de informatización. Estudiará todos los procesos,
+   recursos y normas existentes en el sistema, sus interacciones\...
+   Detallará los aciertos y errores del mismo, así como las acciones a
+   poner en marcha para lograr su optimización. El resultado de esta fase
+   será un completo y exhaustivo documento en el cual se especificaran
+   todas estas cuestiones.
+3. Especificación de los requisitos o requerimientos: esta es una
+   parte crítica del proyecto. Deben detallarse todas y cada una de las
+   características y/o prestaciones que debe ofrecer el sistema
+   informático que se considera ideal para su implantación en la
+   biblioteca. La base de todos estos requerimientos serán las
+   necesidades que la biblioteca debe satisfacer para alcanzar el
+   conjunto de objetivos que tiene previstos.
+4. Evaluación de sistemas: con la óptica del documento que contiene
+   los requerimientos, deben contemplarse las opciones que se ofrecen
+   para la selección de un sistema informatizado. La biblioteca puede
+   optar por desarrollar uno propio (lo cual resulta casi imposible en la
+   mayor parte de las situaciones), o adquirir alguno de los existentes
+   en el mercado, fabricados por terceras partes. En este segundo caso,
+   se remite a los proveedores el documento de requerimientos, a la
+   espera de sus propuestas. Las respuestas de éstos, así como el
+   análisis de la literatura especializada, y la visita e intercambio de
+   experiencias con otros usuarios, serán la base sobre la que tomar una
+   decisión.
+5. Negociación del contrato y de sus condiciones: la selección de un
+   sistema debe seguirse por el contacto con el proveedor para negociar
+   las condiciones del contrato de compra. En este caso puede darse una
+   variada casuística, por lo que es recomendable atender, cuando menos,
+   a condiciones referidas a fechas de puesta en marcha, formación de
+   usuarios, mantenimiento y pruebas de aceptación, estado de propiedad
+   de las patentes, formas de pago, etc.
+6. Puesta en marcha: la fase de puesta en marcha resulta ser la
+   culminación de proyecto. Puede ser parcial (en sucesivas fases), o
+   completa, lo que dependerá de la situación bibliotecaria. Sería
+   interesante disponer de un tiempo de prueba real, antes de la
+   aceptación total. En este contexto debe situarse la formación del
+   personal de la biblioteca en relación con el sistema, a diferentes
+   niveles. Deben considerarse, además, la legislación que puede afectar
+   al ámbito de trabajo y a los operarios del sistema.
+7. Control y mantenimiento: el sistema necesitará mantenimiento y
+   control de las actividades que desarrolla, para su perfecto
+   funcionamiento y desempeño de sus funciones. Es necesario considerar
+   que el mantenimiento cubierto en los contratos de adquisición suele
+   cubrir el primer o primeros años, corriendo el gasto a cuenta de la
+   biblioteca posteriormente.
+8. Renovación: los sistemas de informatización de bibliotecas no son
+   eternos ni perfectos, por lo que resulta ineludible considerar que
+   será necesaria su renovación y/o sustitución pasado determinado
+   período de tiempo.
 
 Resulta forzoso hacer dos últimas consideraciones. En primer lugar, la
 implantación de un sistema de este tipo tiene costes ocultos (como
@@ -590,8 +584,7 @@ evidente que la disponibilidad de manuales asequibles para el personal y
 los usuarios del sistema harán más fácil la comprensión e integración
 del mismo en el entorno bibliotecario.
 
-**10.7. Normas de tratamiento, recuperación, transferencia y
-almacenamiento de información.**
+## **10.7. Normas de tratamiento, recuperación, transferencia y almacenamiento de información.**
 
 Las múltiples entidades y categorías de datos que son objeto de
 tratamiento, en el marco de las tareas propias de una unidad de
@@ -643,7 +636,7 @@ registros bibliográficos, por tratarse de uno de los más extendidos y
 objeto de experiencia y publicación, y corresponder, a su vez, a los
 sistemas de automatización de bibliotecas tratados con anterioridad.
 
-**10.8. El registro bibliográfico.**
+## **10.8. El registro bibliográfico.**
 
 Un registro bibliográfico es un registro que ofrece información sobre
 una noticia bibliográfica. Este registro se compone de un conjunto de
@@ -651,13 +644,12 @@ elementos que transmiten información sobre el elemento u objeto al que
 representan. Todos los registros de tipo bibliográfico comprenden dos
 tipo de elementos:
 
--   Elementos bibliográficos: transmiten información sobre un documento
-    .
-
+-   Elementos bibliográficos: transmiten información sobre un documento.
+    
 -   Elementos de procedimiento: transmiten información sobre la función
     de procedimiento del registro.
 
-**10.9. Breve historia del formato MARC.**
+## **10.9. Breve historia del formato MARC.**
 
 El auge de los sistemas de informatización de bibliotecas, especialmente
 en los Estado Unidos de América, trajo consigo la posibilidad y la
@@ -701,15 +693,15 @@ ISO 3297-1975 (ISSN, International Serial Standard Number), ISO
 2108-1978 (ISBN, International Standard Book Number) e ISO 214-1976
 (normas para la realización de resúmenes de publicaciones y documentos).
 
-**10.10. El formato MARC.**
+## **10.10. El formato MARC.**
 
-El formato MARC, tal y como es definido en la norma ISO 2709, \"Es la
+El formato MARC, tal y como es definido en la norma ISO 2709, "Es la
 estructura de la noticia bibliográfica, así como el sistema de códigos
-que identifican el contenido de la misma\", \"tiene como finalidad
+que identifican el contenido de la misma", "tiene como finalidad
 facilitar el intercambio de los datos bibliográficos en soporte
-magnético.\", Y su función es \"desarrollar el análisis de los elementos
+magnético.", Y su función es "desarrollar el análisis de los elementos
 de una noticia bibliográfica, o referencia bibliográfica, especificando
-las etiquetas, indicadores y códigos de subcampo.\"
+las etiquetas, indicadores y códigos de subcampo."
 
 Resulta de suma importancia recordar que el formato MARC no es un
 formato de catalogación o una norma de análisis. La prioridad del MARC
@@ -723,25 +715,21 @@ del registro (SOCADI, 1992).
 
 El formato físico utilizado para los registros tienes tres partes:
 
-> 1\. La estructura del registro: es la representación física de la
-> información en el soporte legible por el ordenador.
->
-> 2\. Los designadores del contenido: son las etiquetas y códigos que
-> sirven para identificar a los mismos.
->
-> 3\. El contenido del registro: la propia información.
+1. La estructura del registro: es la representación física de la
+   información en el soporte legible por el ordenador.
+2. Los designadores del contenido: son las etiquetas y códigos que
+   sirven para identificar a los mismos.
+3. El contenido del registro: la propia información.
 
 La estructura del registro posee, a su vez, tres partes,
 correspondientes a:
 
-> 1\. Cabecera: de longitud y formato fijos, informa sobre la longitud,
-> tipo y nivel bibliográfico del documento.
->
-> 2\. Directorio: informa sobre los campos variables específicos
-> incluidos en el formato.
->
-> 3\. Campos variables: o área de datos, contiene los datos de cada
-> campo.
+1. Cabecera: de longitud y formato fijos, informa sobre la longitud,
+   tipo y nivel bibliográfico del documento.
+2. Directorio: informa sobre los campos variables específicos
+   incluidos en el formato.
+3. Campos variables: o área de datos, contiene los datos de cada
+   campo.
 
 De lo anterior puede deducirse que el formato MARC posee dos tipos de
 campos: los de longitud fija y los de longitud variable. Los primeros se
@@ -750,7 +738,7 @@ que siempre aparecen en el registro. Los segundos, por contra, son
 preferidos para campos cuyo contenido puede variar notablemente,
 dependiendo del nivel de la noticia bibliográfica.
 
-*10.10.1. El formato IBERMARC.*
+### *10.10.1. El formato IBERMARC.*
 
 En consonancia con el panorama esbozado anteriormente, el sistema
 bibliotecario español utiliza el formato IBERMARC, del cual existen
@@ -762,17 +750,14 @@ su propio formato MARC, como es el caso de Cataluña (CATMARC). Como
 ejemplo, el formato IBERMARC para monografías ofrece la siguientes
 estructura:
 
-> 1\. Cabecera y guía, de 24 caracteres.
->
-> 2\. Directorio o repertorio, número variables de elementos de longitud
-> fija (12 caracteres).
->
-> 3\. Campos de longitud fija (número de identificación, campo 001, y
-> códigos de información, campo 008).
->
-> 4\. Campos de longitud variable (números de control, lenguas, número
-> de clasificación y localización, descripción bibliográfica y registro
-> de entidades secundarias).
+1. Cabecera y guía, de 24 caracteres.
+2. Directorio o repertorio, número variables de elementos de longitud
+   fija (12 caracteres).
+3. Campos de longitud fija (número de identificación, campo 001, y
+   códigos de información, campo 008).
+4. Campos de longitud variable (números de control, lenguas, número
+   de clasificación y localización, descripción bibliográfica y registro
+   de entidades secundarias).
 
 Un campo IBERMARC contiene un conjunto de elementos que identifican al
 campo, sus características, sus subcampos y los datos contenidos en él.
@@ -798,13 +783,13 @@ d: identificador del subcampo fecha.
 
 1978: dato del subcampo fecha.
 
-*10.10.2. Intentos de integración: el formato UNIMARC.*
+### *10.10.2. Intentos de integración: el formato UNIMARC.*
 
 La diversidad de formatos MARC hace difícil el intercambio de registros
 bibliográficos entre diferentes agencias nacionales, lo que en principio
 resultaba ser su principal objetivo. En realidad, el intercambio de
 registros supone, en la actualidad, la utilización de programas capaces
-de \"traducir\" entre diferentes formatos. Por esta razón se han
+de "traducir" entre diferentes formatos. Por esta razón se han
 iniciado esfuerzos en aras de obtener un formato MARC común, al que se
 ha llamado UNIMARC (HOLT, 1987). Sin embargo, la existencia de grandes
 bases de datos y de aplicaciones específicas construidas para los
@@ -813,8 +798,8 @@ formato UNIMARC. Por esta causa, se tiende a ver el formato UNIMARC, en
 estos momentos, más como un formato de intercambio entre diferentes
 MARC, que como un formato común. Es decir, que en vez de intercambiar
 registros entre diferentes MARC, con el esfuerzo particular que ello
-supone, se tiende a implantar programas que \"traduzcan\" el MARC propio
-a UNIMARC, y programas que \"traduzcan\" de UNIMARC al propio, en el
+supone, se tiende a implantar programas que "traduzcan" el MARC propio
+a UNIMARC, y programas que "traduzcan" de UNIMARC al propio, en el
 sentido de agilizar y ahorrar esfuerzos en las tareas de transferencia.
 La estructura de los campos de los registros UNIMARC responde a las
 siguientes partes:
@@ -839,4 +824,4 @@ siguientes partes:
 >
 > \- 9\... : Bloque de uso nacional.
 
-.
+

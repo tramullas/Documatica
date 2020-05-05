@@ -1,14 +1,18 @@
-**11. BIBLIOGRAFÍA.**
+# **11. BIBLIOGRAFÍA.**
+
+------
 
 Abreviaturas:
 
-ACM Association for Computer Machinery
+*ACM Association for Computer Machinery*
 
-ARIST Annual Review of Information Science and Technologiy
+*ARIST Annual Review of Information Science and Technologiy*
 
-JASIS Journal of the American Society for Information Science.
+*JASIS Journal of the American Society for Information Science.*
 
-IFID International Forum on Information and Documentation.
+*IFID International Forum on Information and Documentation.*
+
+------
 
 ABOBA, B. (1993): *The Online User\'s Encyclopedia*. Reading:
 Addison‑Wesley.
@@ -47,8 +51,8 @@ BATINI, C., CERI, S. y NAVATHE, S.B. (1994): *Diseño conceptual de bases
 de datos. Un enfoque de entidades-interrelaciones*. Wilmington:
 Addison-Wesley/ Díaz de Santos.
 
-BEARD, D.V. (1991): \"Computer Human Interaction for Image Information
-Systems.\" *JASIS* 42, 8, pp. 600-608.
+BEARD, D.V. (1991): "Computer Human Interaction for Image Information
+Systems." *JASIS* 42, 8, pp. 600-608.
 
 BELKIN, N., CROFT, W.B. (1987): "Retrieval Techniques." *ARIST*, 22, pp.
 109-145
@@ -95,10 +99,10 @@ Sciences: Some Reflections." *Information Processing & Management*, 32,
 BUCKLAND, M. (1991a): *Information and Information Systems*. New York:
 Greenwood Press.
 
-BUCKLAND, M. K. (1991b) \"Information Retrieval of More than Text.\"
+BUCKLAND, M. K. (1991b) "Information Retrieval of More than Text."
 *JASIS*, 42, 8, pp. 586-588.
 
-BUSON, R. (1993): \"Base de datos documentales.\" *PC World*, Enero,
+BUSON, R. (1993): "Base de datos documentales." *PC World*, Enero,
 pp.120-126.
 
 BUSTELO, C. (1994): "El papel de los expertos en documentación en la
@@ -137,8 +141,8 @@ Fund. Germán Sánchez Ruipérez.
 CLAYTON, M., y BATT, C. (1992): *Managing Library Automation*.
 Aldershot: Gower.
 
-CODINA, L. (1990): \"Bases de datos documentales para
-microordenadores.\" *Actas de las 3[a^s^]{.underline} Jornadas Españolas
+CODINA, L. (1990): "Bases de datos documentales para
+microordenadores." *Actas de las 3[a^s^]{.underline} Jornadas Españolas
 de Documentación Automatizada DOCUMAT 90*, Palma de Mallorca:
 Universitat de les Illes Balears, pp. 618-627.
 
@@ -149,9 +153,9 @@ Barcelona: Pòrtic.
 CODINA, L. (1996): "Cómo descubrir información en Internet y cómo
 conseguir que nos descubran a nosotros." *Net Conexión*, 13, pp.52-67.
 
-CODINA, L., y ABADAL, E. (1992): \"Gestió documental amb
+CODINA, L., y ABADAL, E. (1992): "Gestió documental amb
 microordinadors: caracteristiques, estructura i tecnologia dels sistemes
-de gestió documental.\" *ITEM, Revista de Biblioteconomia i
+de gestió documental." *ITEM, Revista de Biblioteconomia i
 Documentació*, 11, pp.72-100.
 
 CONKLIN, L. (1987): "Hypertext: an introduction and survey." *IEEE
@@ -179,8 +183,8 @@ for Users." *IFID*, 19, 3-4, pp.28-31.
 COX, J. (1991): *On-line and CD-ROM Database Searching*. London:
 Mansell.
 
-COYNE, J.P. (1991): \"The Relationship Between Multimedia and Expert
-Systems*.\" Multimedia Review*, June, p. 13.
+COYNE, J.P. (1991): "The Relationship Between Multimedia and Expert
+Systems*." Multimedia Review*, June, p. 13.
 
 CROFT, W. B. (1987): "Approaches to intelligent information retrieval*."
 Information Proccesing & Management*, 23, 4, pp. 249-254
@@ -289,9 +293,9 @@ HAHN, H. (1994): *INTERNET. Manual de referencia*. Madrid: McGraw‑Hill.
 HANSON, T.(ed.) (1995): *Bibliographic Software and the Electronic
 Library*. Hertfordshire: University of Herfordshire Press.
 
-HAWKINS, D. T. *et alii*. (1985): \"Front End Software for Online
+HAWKINS, D. T. *et alii*. (1985): "Front End Software for Online
 Database Searching. Part One: Definitions, System Features, and
-Evaluation.\" *Online*, November, pp. 30-37.
+Evaluation." *Online*, November, pp. 30-37.
 
 HEAPS, H.S. (1978): *Information Retrieval. Computational and
 Theoretical Aspects*. New York: Academic Press.
@@ -397,8 +401,8 @@ Context*. Cambridge: Cambridge University Press.
 MEADOW, C.T. (1992): *Text Information Retrieval Systems*. San Diego:
 Academic Press.
 
-MEGHANI, C., RABITTI, F. y THANOS, C. (1991): \"Conceptual Modeling of
-Multimedia Documents.\" *Computer*, October, pp. 23-30.
+MEGHANI, C., RABITTI, F. y THANOS, C. (1991): "Conceptual Modeling of
+Multimedia Documents." *Computer*, October, pp. 23-30.
 
 MICHAEL, D.A. (1994): "What is Used during Cognitive Processing in
 Information Retrieval and Library Searching?" *JASIS*, 45, 7, pp.
@@ -435,7 +439,7 @@ ORERA ORERA, L.(ed.) (1996): *Manual de Biblioteconomía*. Madrid:
 Síntesis.
 
 ORTIN-REPISO, V. y OLMEDA, C. (1994): "Orientarse en Internet: Hytelnet
-6.4\" *Revista Española de Documentación Científica*, 17, 1, pp.9-24.
+6.4" *Revista Española de Documentación Científica*, 17, 1, pp.9-24.
 
 OZKARAHAN, E. (1995): "Multimedia Document Retrieval*." Information
 Processing & Management*, 31, 1, pp.113ss.
@@ -596,8 +600,8 @@ Practice.* London: Bowker‑Saur.
 WALKER, G. y JONES, J. (1993*): Online Retrieval: A Dialogue of Theory
 and Practice*. Englewood: Libraries Unlimited.
 
-WARNER, J. (1990): \"Semiotics, Information Science, Documents and
-Computers.\" *Journal of Documentation*, 46, 1, pp. 24ss.
+WARNER, J. (1990): "Semiotics, Information Science, Documents and
+Computers." *Journal of Documentation*, 46, 1, pp. 24ss.
 
 WATTERS, C.R. (1989): "Logic Framework for Information Retrieval."
 *JASIS*, 40, 5, pp. 311‑324.

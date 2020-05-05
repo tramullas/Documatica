@@ -1,5 +1,7 @@
 # **2. LOS SISTEMAS DE BASES DE DATOS Y LOS SGBD.**
 
+------
+
 > *Lecturas recomendadas*: ELMASRI y NAVATHE, 1989; MIGUEL y PIATTINI, 1993; FROST, 1989; KORTH y SILBERSCHATZ, 1993; MOTA, CELMA y CASAMAYOR, 1994; BATINI, CERI y NAVATHE, 1994; JACKSON, 1990; REINGRUBER y GREGORY, 1994, BERTINO y MARTINO, 1995.
 
 Una de las conclusiones obtenidas en el capítulo anterior era que los recursos de información, y los mecanismos necesarios para su interrogación, resultaban ser uno de los objetivos fundamentales en los

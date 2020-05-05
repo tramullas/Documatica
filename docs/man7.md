@@ -1,5 +1,7 @@
 # **7. LA TELEDOCUMENTACIÓN.**
 
+------
+
 > *Lecturas recomendadas*: ABOBA, 1993; WALKER y JONES, 1993; LANCASTER
 > y WARNER, 1993; AMSTRONG y LARGE, 1988; BASCH, 1993; BATES, 1987;
 > CHAMORRO y GONZÁLEZ, 1992; DVORAK y ANIS, 1992; FUNDESCO, 1986;
@@ -64,7 +66,7 @@ establece la existencia de cuatro actores en el proceso teledocumental:
    mercado y de necesidades de información, seleccionado el área de
    cobertura, los fondos incluidos, y dan soporte al desarrollo y
    crecimiento posterior de la base de datos.
-2. Distribuidores o \"host\": este segundo actor es el encargado de
+2. Distribuidores o "host": este segundo actor es el encargado de
    situar la base de datos a disposición de los usuarios interesados,
    actuando como intermediario entre el productor y el usuario. Establece
    una serie de convenios con los productores para ofrecer sus bases de
@@ -176,9 +178,7 @@ ofrecidas por el propio host. Incluso alguno de ellos facilita con el
 contrato un software de comunicaciones y terminal especialmente diseñado
 para la consulta de sus bases de datos.
 
-## 7.4. El IRS (Information Retrieval System/Sistema de Recuperación de
-
-Información).**
+## 7.4. El IRS (Information Retrieval System/Sistema de Recuperación de Información).
 
 Una vez conectado el usuario al servicio, y validada su autorización, se
 encuentra en situación de utilizar el software de interrogación y
@@ -433,7 +433,7 @@ rentables.
 No existe un único esquema de tarifas para la teledocumentación. La
 aplicación de tarifas puede variar entre los diferentes distribuidores,
 con motivo de lanzamiento de bases de datos o nuevos servicios,
-competitividad, etc. Incluso en ocasiones se realizan \"ofertas\" de
+competitividad, etc. Incluso en ocasiones se realizan "ofertas" de
 conexión y utilización de bases de datos. Independientemente de esto,
 hay que tener en cuenta que los hosts suelen cargar en la factura del
 usuario como conceptos tiempo de conexión, número de ecuaciones

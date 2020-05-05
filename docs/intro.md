@@ -1,4 +1,8 @@
-## **Presentación (1997)**
+# Introducción
+
+------
+
+## Presentación (1997)
 
 > El impacto de las tecnologías de la información en las Ciencias de la
 > Documentación (entendiendo este concepto como integrador de todas
@@ -134,7 +138,7 @@
 > (seguramente algunos de ellos inconfesables). Agotada rápidamente en
 > su versión papel, se publicó en formato HTML en el web en 2002. Desde
 > ese momento hasta 2010 ha estado disponible en el dominio
-> http://docunautica.com, generando un tráfico que ha ido oscilando
+> docunautica.com, generando un tráfico que ha ido oscilando
 > alrededor de 1000 visitantes y entre 3000 y 4000 páginas vistas cada
 > mes. Estuvo a punto de ser retirada en 2006, pero numerosas peticiones
 > de usuarios me persuadieron de que aún resultaba de utilidad, y que

@@ -1,10 +1,12 @@
 # **9. APROXIMACIÓN A LOS SISTEMAS DE INFORMACIÓN.**
 
+------
+
 > *Lecturas recomendadas*: WILSON, 1993:;BURCH y GRUDNITSKY, 1992;
 > CODINA, 1994a, 1994b; SENN, 1992; LUCAS, 1987; SEGIET y BROUSSE, 1992;
 > VICKERY y VICKERY, 1992; ROWLEY, 1994; MIGUEL y PIATTINI, 1993.
 
-**9.1. Concepto de sistema.**
+## **9.1. Concepto de sistema.**
 
 Un sistema (WILSON, 1993) es un conjunto de elementos interrelacionados
 en función de un objetivo común, actuando en determinado entorno y con
@@ -59,7 +61,7 @@ asociadas entre ellas:
 
 5.  Sistemas trascendentales
 
-**9.2. Sistema e información.**
+## **9.2. Sistema e información.**
 
 El concepto básico relacionado con un sistema, especialmente en aquellos
 que se definen como diseñados, es el de proceso de transformación. Las
@@ -128,7 +130,7 @@ sistema de información basado en ordenadores:
 
 5.  El servicio documental siempre está en crecimiento.
 
-**9.3. Hacia una definición de los sistemas de información.**
+## **9.3. Hacia una definición de los sistemas de información.**
 
 Toda organización tiene un sistema de información, independientemente de
 que sea automatizado o no. En cierto modo, se trata de una entidad
@@ -170,7 +172,7 @@ toma de decisiones y/o el control de la organización. " (LUCAS, 1987:
 > tipo de actividad ( con base en esta información de apoyo), se produce
 > una salida de datos".
 
-**9.4. Los sistemas de información documental (SID).**
+## **9.4. Los sistemas de información documental (SID).**
 
 Ha sido Codina quien más recientemente ha intentado conceptualizar los
 sistemas de información documental, por oposición a los sistemas de
@@ -208,7 +210,7 @@ funcionamiento interno del sistema con el marco cognitivo externo del
 usuario, aspecto éste que resulta desconocido para cualquier tipo de
 sistema de información.
 
-*9.4.1. La complejidad multifacetada de los sistemas de información.*
+### *9.4.1. La complejidad multifacetada de los sistemas de información.*
 
 La complejidad que preside el estudio de los sistemas de información
 pueden resumirse utilizando las metáforas presentadas por Van Gigch y Le
@@ -269,7 +271,7 @@ dividirse en tres grandes categorías, que corresponden a microdatos
 metadatos (información y datos sobre los propios datos y su
 significado).
 
-*9.4.2. Tipos de sistemas de información.*
+### *9.4.2. Tipos de sistemas de información.*
 
 Independientemente de los componentes y de las funciones, se han
 realizado numerosos esfuerzos por ofrecer una tipología de los sistemas
@@ -311,7 +313,7 @@ actividad de la organización:
     decisión, e incluyen la consideración de la existencia de un factor
     de riesgo y de criterios múltiples.
 
-*9.4.3. Hacia un ciclo de vida de los sistemas de información.*
+### *9.4.3. Hacia un ciclo de vida de los sistemas de información.*
 
 Dentro de las diferentes metodologías de desarrollo desempeña una
 función fundamental la creación de modelos. Estos modelos permiten la
@@ -350,7 +352,7 @@ momento. Esto se consigue gracias al pilotaje o control del sistema, que
 reúne las funciones de seguimiento, análisis y reacción, si es
 necesario, y se asegura de que el sistema ejecuta los planes previstos..
 
-*9.4.4 Hacia una planificación de los sistemas de información.*
+### *9.4.4 Hacia una planificación de los sistemas de información.*
 
 Por último, no hay que olvidar que un sistema de información ha de
 responder a unas políticas bien definidas de información para la
@@ -376,7 +378,7 @@ planeación estratégica son (BURCH y GRUDNITSKY, : 591-599):
 3.  Determinación de los recursos y la capacidad de los sistemas de
     información.
 
-*9.4.5. La evolución de los sistemas de información*
+### *9.4.5. La evolución de los sistemas de información*
 
 Una vez resuelta la fase de planeación estratégica, se utiliza la
 metodología de desarrollo de sistemas para crear el sistema de
@@ -422,8 +424,7 @@ información. Integración que, con la misma filosofía, irá borrando las
 limitaciones en las combinaciones de información de gestión, factual y
 documental.
 
-**9.5. Sistemas de información documental: definición, características y
-elementos.**
+## **9.5. Sistemas de información documental: definición, características y elementos.**
 
 Es necesario terminar concluyendo con una primera definición de los
 sistemas de información documental. Se pueden definir como un tipo

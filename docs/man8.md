@@ -1,17 +1,19 @@
-# **8. INTERNET.**
+# 8. **INTERNET**.
+
+------
 
 > *Lecturas recomendadas*: HAHN, 1994; GARCÍA MARCO y TRAMULLAS, 1996;
 > UBIETO, 1994, 1995; GILSTER, 1996; TRAMULLAS, en prensa, sin publicar;
 > CODINA, 1996; SCOTT BRAND, 1996; ORTIZ REPISO y OLMEDA, 1994; TSENG,
 > POULTER Y HIOM, 1995.
 
-**8.1. Introducción**
+## **8.1. Introducción**
 
 El presente capítulo pretende dar una visión general del nacimiento y
 desarrollo de Internet, de los principios técnicos sobre los que se
 sustenta, y de las herramientas disponibles para la explotación de los
 recursos de información accesibles. Es necesario hacer una precisión. Se
-aprecia en estos momentos una peligrosa \"inflación\" sobre Internet.
+aprecia en estos momentos una peligrosa "inflación" sobre Internet.
 Son excesivas las referencias y trabajos sobre la misma y sus
 aplicaciones, sin que en realidad, sean abundantes las aportaciones
 novedosas, lo que da como resultado la creación de un panorama engañoso.
@@ -28,7 +30,7 @@ en cualquier materia.
 
 La expansión de los recursos telemáticos a nivel científico
 internacional ha paliado, en gran parte, este tipo de problemas. Es
-posible acceder, en estos momentos, mediante redes como \"Internet\", a
+posible acceder, en estos momentos, mediante redes como "Internet", a
 grandes cantidades de información de todo tipo, y mantener contactos
 regulares y actualizados con grupos de trabajo en toda la extensión del
 planeta. Por supuesto, esto supone un variado y rico intercambio
@@ -39,8 +41,8 @@ público.
 
 Para el entorno científico y académico español ello es posible gracias a
 la conexión de un número creciente de instituciones españolas de I+D a
-la \"Internet\" mundial. El coste de las líneas telemáticas, fijo e
-independiente del uso, es asumido por el \"Plan Nacional de I+D\"
+la "Internet" mundial. El coste de las líneas telemáticas, fijo e
+independiente del uso, es asumido por el "Plan Nacional de I+D"
 materializado en la red ARTIX. A nivel práctico esto supone ---por el
 momento--- un coste casi nulo para las instituciones y sus miembros.
 Para el ciudadano particular se han puesto en marcha numerosas empresas
@@ -60,7 +62,7 @@ de recursos informativos se convierte entonces en un navegar
 interactivo, para el que es necesario conocer y aplicar las herramientas
 existentes.
 
-**8.2. La red Internet.**
+## **8.2. La red Internet.**
 
 Actualmente, la Internet es la interconexión de resdes informáticas a
 escala global y planetaria que engloba a todas las redes que utilizan
@@ -98,32 +100,30 @@ supuesto, todo este proceso está muy influenciado por condicionamientos
 políticos europeos. Como usuarios particulares, destaca el trabajo de
 EUnet (red de usuarios UNIX europeos).
 
-**8.3. Equipo básico y protocolos para el aprovechamiento de Internet.**
+## **8.3. Equipo básico y protocolos para el aprovechamiento de Internet.**
 
 Los medios materiales necesarios para el acceso a la interconexión de
 redes informáticas a la que se identifica con el nombre de Internet son
 de uso común gracias a la progresiva penetración de la informática a
-todos los niveles: una cuenta en un gran ordenador (\"workstation\",
-miniordenador o \"mainframe\"), o un PC u ordenador personal de otro
+todos los niveles: una cuenta en un gran ordenador ("workstation",
+miniordenador o "mainframe"), o un PC u ordenador personal de otro
 tipo, conectado al mundo exterior (RedIRIS, ARTIX, Infovía), vía serie
 (modem y línea telefónica con Infovía u otro proveedor) o vía red
 (Ethernet o similar) (UBIETO, 1995). Los conocimientos técnicos precisos
 para preparar y aprovechar una conexión pueden resumirse como sigue:
 
-> 1\. El sistema operativo de un ordenador monousuario o multiusuario,
-> el acceso al mismo, gestión de ficheros y directorios, así como los
-> correspondientes sistemas operativos.
->
-> 2\. El proceso de conexión al ordenador central con los medios y
-> programas anteriormente citados, cuando sea necesario.
->
-> 3\. Las convenciones utilizadas en protocolos de comunicaciones,
-> especialmente el \"domain name system\" de \"TCP/IP\" y las
-> aplicaciones de \"terminal remoto\" (TELNET), \"transferen­cia de
-> ficheros\" (FTP) y \"correo electrónico\" (\"ean\" en VMS, \"elm\" en
-> UNIX, Eudora o Pegasus en sistemas PC). Y finalmente lo referente a la
-> \"emulación de terminal\", siendo suficiente utilizar la que se conoce
-> como \"VT-100\".
+1. El sistema operativo de un ordenador monousuario o multiusuario,
+   el acceso al mismo, gestión de ficheros y directorios, así como los
+   correspondientes sistemas operativos.
+2. El proceso de conexión al ordenador central con los medios y
+   programas anteriormente citados, cuando sea necesario.
+3. Las convenciones utilizadas en protocolos de comunicaciones,
+   especialmente el "domain name system" de "TCP/IP" y las
+   aplicaciones de "terminal remoto" (TELNET), "transferen­cia de
+   ficheros" (FTP) y "correo electrónico" ("ean" en VMS, "elm" en
+   UNIX, Eudora o Pegasus en sistemas PC). Y finalmente lo referente a la
+   "emulación de terminal", siendo suficiente utilizar la que se conoce
+   como "VT-100".
 
 El conjunto de software necesario para establecer la comunicación entre
 los diferentes ordenadores recibió el nombre de TCP/IP (Transfer Control
@@ -159,7 +159,7 @@ facilidad para el desarrollo de aplicaciones que ofrecen éstos han
 provocado que TCP/IP sea *de facto*, el protocolo actual y futuro de
 Internet.
 
-**8.4. Nombres y direcciones en Internet.**
+## **8.4. Nombres y direcciones en Internet.**
 
 Para el usuario resulta evidente la necesidad de conocer no sólo cómo
 acceder, sino conocer dónde se encuentran los recursos informativos de
@@ -186,28 +186,26 @@ con la excepción de los dominios .mil (militar), .gov (gubernamental),
 .edu (educativo), .com (comercial) u .org (ONG), que corresponden a
 entidades situadas en los Estados Unidos de América.
 
-![](media/image1.png){width="5.111111111111111in"
-height="3.8520833333333333in"}
+![fig8_1](figs/fig8_1.jpg)
 
-**Fig.8.1. Conexión Telnet a la Biblioteca de la Universidad de Liège.**
+Fig.8.1. Conexión Telnet a la Biblioteca de la Universidad de Liège.
 
-**8.5. Aplicaciones de búsqueda y recuperación de información sobre
-Internet.**
+## **8.5. Aplicaciones de búsqueda y recuperación de información sobre Internet.**
 
 Sobre el protocolo TCP/IP se han establecido, utilizando las facilidades
 y fiabilidad que éste aporta, un conjunto de aplicaciones especializadas
 para facilitar el acceso y la transferencia de información de forma
 fiable entre los usuarios, independientemente del sistema operativo
 sobre el que trabajen (UBIETO, 1994; HAHN, 1994). De esta forma, pueden
-encontrarse actualemnte gran cantidad de \"clientes\", es decir,
-aplicaciones que permiten interactuar con \"servidores\" de la misma
+encontrarse actualemnte gran cantidad de "clientes", es decir,
+aplicaciones que permiten interactuar con "servidores" de la misma
 clase, normalmente gratuitos, y disponibles para las principales
 plataformas de ordenadores personlaes, con sistemas operativos e
 interfaces DOS, UNIX y Macintosh, y X-Windows y Windows,
 respectivamente. Entre éstos, deben citarse obligatoriamente los
 siguientes:
 
-*8.5.1. Mensajería:*
+### *8.5.1. Mensajería:*
 
 > El correo electrónico (o e-mail) permite el intercambio de mensajes
 > entre personas a lo largo de toda la red. Basta con conocer su
@@ -218,7 +216,7 @@ siguientes:
 > redireccionando a todos los inscritos los mensajes que se envíen al
 > servidor central.
 
-*8.5.2. Noticias:*
+### *8.5.2. Noticias:*
 
 > Denominadas NEWS, completa al servicio de mensajería. Utilizando un
 > símil, sería un tablón de anuncios en el que cualquier usuario deja un
@@ -228,7 +226,7 @@ siguientes:
 > correo, pueden ser públicos o privados. Las news son uno de los
 > servicios de mayor crecimiento y uso dentro de Internet.
 
-*8.5.3. Transferencia de ficheros:*
+### *8.5.3. Transferencia de ficheros:*
 
 > Dentro de los computadores conectados a Internet puede encontrarse
 > gran cantidad de información, almacenada en ficheros de base de datos,
@@ -237,13 +235,13 @@ siguientes:
 > puede cargar en su propio ordenador los ficheros originales. La
 > aplicación utilizada para estas transacciones es FTP.
 
-*8.5.4. Terminal remoto:*
+### *8.5.4. Terminal remoto:*
 
 > Servicio primario, su utilidad es acceder a las cuentas en los
 > ordenadores propios desde cualquier punto de la red, y realizar los
 > trabajos necesarios en cada momento.
 
-*8.5.5. Búsqueda de información:*
+### *8.5.5. Búsqueda de información:*
 
 > El gran volumen de información existente hace necesaria la utilización
 > de herramientas que permitan su localización (GILSTER, 1996). Dentro
@@ -279,7 +277,7 @@ siguientes:
 > a directorios, etc. Su sistema de menús es programable por el usuario,
 > por lo que éste puede organizar su utilización de los recursos de la
 > red. El espacio de información organizado y accesible de esta manera
-> es llamado \"gopherespacio\". GOPHER ofrece una herramienta de
+> es llamado "gopherespacio". GOPHER ofrece una herramienta de
 > funcionalidad parecida a ARCHIE, pero dedicada principalmente a
 > documentos incluidos en servidores Gopher, denominada VERONICA.
 >
@@ -327,7 +325,7 @@ ha sido todavía controlada por ninguna entidad, aspecto éste que se
 espera sea tratado en breve por el comité correspondiente de la Internet
 Society.
 
-**8.6. El estandarte de Internet: World Wide Web.**
+## **8.6. El estandarte de Internet: World Wide Web.**
 
 La aplicación que más ha favorecido el conocimiento y despegue de
 Internet en todos los ámbitos ha sido el Worl Wide Web, o telaraña
@@ -359,7 +357,7 @@ información, como de acceder a ella, muy diferente al concepto
 tradicional de teledocumentación, aunque íntimamente relacionado en su
 objetivo y finalidad.
 
-*8.6.1. El cliente web*
+## *8.6.1. El cliente web*
 
 La herramienta o aplicación utilizada para explorar y navegar por el
 ámbito Web se conoce como browser o cliente web. Se trata de un cliente
@@ -374,9 +372,9 @@ usuario tal y como desea el creador del documento. Conforme va
 recibiendo los componentes, el cliente web los organiza y los va
 mostrando progresivamente al usuario.
 
-![](media/image2.png){width="5.117361111111111in" height="5.14375in"}
+![fig8_2](figs/fig8_2.jpg)
 
-**Fig.8.2. Aspecto del cliente web Netscape Navigator.**
+Fig.8.2. Aspecto del cliente web Netscape Navigator.
 
 Las aplicaciones clientes resultan ser en estos momentos sumamente
 avanzadas, y sus funcionalidades no se limitan a la obtención y proceso
@@ -414,7 +412,7 @@ a la estructura de directorios /docs/info/, y dentro de este último
 obtener el fichero saludo.html. Todos los URL siguen el mismo esquema,
 por lo que su utilización resulta intutitiva y sencilla.
 
-*8.6.2. Recuperación de información en el ámbito Web.*
+### *8.6.2. Recuperación de información en el ámbito Web.*
 
 La proliferación, en términos exponenciales, de documentos web con todo
 tipo de contenidos informativos, hace necesaria la creación de sistemas
@@ -422,16 +420,15 @@ organización y recuperación que faciliten el acceso del usuario a
 aquellas páginas web que le sean de utilidad (GARCÍA MARCO y TRAMULLAS,
 1996). En Internet se han adoptado dos enfoques principales:
 
-> 1\. La creación de listados, índices y catálogos ordenados por áreas o
-> materias, de forma que el usuario disponga de un conjunto de fuentes
-> seleccionadas en las que empezar a buscar. El ejemplo más conocido es
-> el norteamericanoYahoo!. Estos catálogos se suelen compilar y
-> organizar de forma casi manual.
->
-> 2\. La creación de índices mediante unas aplicaciones que rastrean o
-> exploran todo el ámbito Web, llamados robots, spiders o wanderers.
-> Estos sistemas, aunque automáticos, ofrecen limitaciones en cuanto a
-> cobertura, nivel de indización del documento u otras cuestiones.
+1. La creación de listados, índices y catálogos ordenados por áreas o
+   materias, de forma que el usuario disponga de un conjunto de fuentes
+   seleccionadas en las que empezar a buscar. El ejemplo más conocido es
+   el norteamericanoYahoo!. Estos catálogos se suelen compilar y
+   organizar de forma casi manual.
+2. La creación de índices mediante unas aplicaciones que rastrean o
+   exploran todo el ámbito Web, llamados robots, spiders o wanderers.
+   Estos sistemas, aunque automáticos, ofrecen limitaciones en cuanto a
+   cobertura, nivel de indización del documento u otras cuestiones.
 
 La búsqueda mediante catálogos no suele ofrecer mayor dificultad que la
 de navegar, de forma guiada, por la estructura jerárquica hasta
@@ -460,9 +457,9 @@ documentos, creación de índices\...), y preparada para su presentación
 al usuario, Todas estas tareas se desarrollan en un segundo plano,
 liberando tiempo de trabajo del usuario para otras tareas.
 
-![](media/image3.png){width="4.9375in" height="3.1145833333333335in"}
+![fig8_3](figs/fig8_3.jpg)
 
-**Fig.8.3. EchoSearch: un agente personal**
+Fig.8.3. EchoSearch: un agente personal
 
 Sin embargo, la recuperación de información en Internet exige del
 usuario la combinación del enfoque tradicional de interrogación de bases
@@ -500,7 +497,7 @@ junto a las más modernas tendencias teóricas de las ciencias de la
 documentación y la información y la aplicación práctica de las mismas en
 la publicación electrónica y la búsqueda y recuperación de información.
 
-**8.7.El concepto de Intranet.**
+## **8.7.El concepto de Intranet.**
 
 De forma muy resumida, Intranet es el término que describe la
 implantación de las tecnologías de Internet dentro de una organización,
@@ -532,28 +529,23 @@ como especialmente interesante.
 Los factores que están influyendo poderosamente en el despegue de
 Intranet pueden resumirse como sigue:
 
-> 1\. Coste asequible.
->
-> 2\. Fácil adaptación y configuración a la infraestructura tecnológica
-> de la organización, así como gestión y manipulación.
->
-> 3\. Adaptación a las necesidades de diferentes niveles: empresa,
-> departamento, área de negocio\...
->
-> 4\. Sencilla integración de multimedia.
->
-> 5\. Disponible en todas las plataformas informáticas.
->
-> 6\. Posibilidad de integración con las bases de datos internas de la
-> organización.
->
-> 7\. Rápida formación del personal.
->
-> 8\. Acceso a la Internet, tanto al exterior, como al interior, por
-> parte de usuarios registrados con control de acceso.
->
-> 9\. Utilización de estándares públicos y abiertos, independientes de
-> empresas externas, como pueda ser TCP/IP o HTML.
+1. Coste asequible.
+2. Fácil adaptación y configuración a la infraestructura tecnológica
+   de la organización, así como gestión y manipulación.
+3. Adaptación a las necesidades de diferentes niveles: empresa,
+   departamento, área de negocio\...
+4. Sencilla integración de multimedia.
+
+5. Disponible en todas las plataformas informáticas.
+
+6. Posibilidad de integración con las bases de datos internas de la
+   organización.
+7. Rápida formación del personal.
+
+8. Acceso a la Internet, tanto al exterior, como al interior, por
+   parte de usuarios registrados con control de acceso.
+9. Utilización de estándares públicos y abiertos, independientes de
+   empresas externas, como pueda ser TCP/IP o HTML.
 
 El oponente de Intranet en la organización, más que los sistemas
 operativos de red, con los que puede convivir, por el momento, son las
@@ -570,7 +562,7 @@ en lo que respecta a interrogaciones complejas sobre varias bases de
 datos). Pronto se asistirá a la aparición de nuevas aplicaciones que
 extiendan las capacidades de Intranet hacia el groupware.
 
-**8.8. La formación de usuarios.**
+## **8.8. La formación de usuarios.**
 
 La correcta gestión del acceso y de los recursos de información
 disponibles en la Internet obliga a pensar en una adecuación del
@@ -605,7 +597,7 @@ de información, entendiendo este último como sistemas completos, con los
 recursos humanos, informativos y tecnológicos consiguientes, más allá
 del concepto tradicional de sistema de información.
 
-**8.9. La universalización de los sistemas de información.**
+## **8.9. La universalización de los sistemas de información.**
 
 La disponibilidad de las redes de telecomunicaciones y de las
 aplicaciones de todo tipo que pueden ejecutarse sobre ellas hacen

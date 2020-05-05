@@ -1,5 +1,7 @@
 # **6. LAS BASES DE DATOS MULTIMEDIA.**
 
+------
+
 > *Lecturas recomendadas*: CHORAFAS, 1994; MCKNIGHT, DILLON y
 > RICHARDSON, 1991; LÓPEZ YEPES, 1993; NICHOLLS y RIDLEY, 1996; KOEGEL,
 > 1994; FIDEL *et alii*, 1994; BIANCHI *et alii*, 1996; APERS, BLANKEN y
@@ -152,7 +154,7 @@ gestión de bases de datos multimedia, que han sido llamados también
 aspectos como el acceso complejo a datos, la transferencia de datos con
 otros sistemas, o la inexistencia de adecuados interfaces de usuario.
 Como respuesta, se tiende a diseñar e implementar nuevos SGBD que sean
-capaces de utilizar \"inteligentemente\" los datos disponibles, e
+capaces de utilizar "inteligentemente" los datos disponibles, e
 integrar las viejas y las antiguas aplicaciones de forma no traumática.
 Una base de información hipermedial tiene varios componentes:
 
@@ -177,14 +179,14 @@ multimedia, la industria todavía no ha establecido todavía estándares de
 formato entre ellas, por lo que se repite la misma situación que en
 momentos anteriores, entre ficheros de base de datos correspondientes a
 aplicaciones como dBASE, Paradox, etc. Aunque las aplicaciones
-tradicionales ya ofrecen \"puentes\" para compartir sus bases de datos,
+tradicionales ya ofrecen "puentes" para compartir sus bases de datos,
 por el momento esto no es posible en lo que respecta a las bases de
 datos multimedia. Sin embargo, están comenzando a aparecer en el mercado
 nuevas aplicaciones que, sin cumplir los requerimientos clásicos de un
 SGBD, pueden generar documentos multimedia, tomando como base
 información y datos contenidos en otros tipos de fichero. Los límites
-entre la base de datos \"real\", y el documento multimedia resultante
-\"virtual\", son difíciles de establecer en el estado actual de la
+entre la base de datos "real", y el documento multimedia resultante
+"virtual", son difíciles de establecer en el estado actual de la
 tecnología. Si puede decirse que es posible establecerse un algoritmo
 que define el proceso de formateo y composición del documento, en dos
 niveles:
@@ -209,7 +211,7 @@ multimedia.
 
 La creación e implantación de un sistema de bases de datos multimedia no
 puede separarse de la adopción de una metodología adecuada para ello. De
-la misma forma que en los sistemas \"tradicionales\" de bases de datos,
+la misma forma que en los sistemas "tradicionales" de bases de datos,
 el enfoque a utilizar es el basado en un sistema integrado de
 información:
 
@@ -232,7 +234,7 @@ de dos niveles de organización y de descripción. En primer lugar, una
 nivel de conocimiento, de metadatos, conceptual y difuso. En segundo
 lugar, un nivel de datos, concreto y analítico. El concepto clave de las
 nuevas bases de datos, a partir de la presente década, será
-\"significado\", superando el clásico \"dato\" o \"información\".
+"significado", superando el clásico "dato" o "información".
 
 ## **6.4. Documentación y bases de datos multimedia.**
 
@@ -343,6 +345,6 @@ y AEDO, 1996: 185-191):
 
 9.  Hay que posibilitar el trabajo en cooperación.
 
-10. El hiperdocumento puede estructurarse siguiendo uan determinada jerarquía.
+10. El hiperdocumento puede estructurarse siguiendo una determinada jerarquía.
     
 11. Existen contenidos virtuales enlazados dinámicamente.

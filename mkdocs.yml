@@ -1,4 +1,6 @@
 site_name: Introducción a la Documática, 1. Teoría.
+site_author: Jesús Tramullas
+description: Tramullas, Jesús (1997, 2020, 2010). Introducción a la Documática, 1. Teoría. Zaragoza (texto completo). 
 nav:
 - Inicio: index.md
 - Introducción: intro.md
