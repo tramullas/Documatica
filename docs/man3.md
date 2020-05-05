@@ -224,7 +224,7 @@ necesario puntualizar que la expansión y la aparición de nuevas técnicas
 informáticas pueden modificar tanto el planteamiento como la ejecución
 de las acciones encaminadas a acceder a la información.
 
-![](/figs/fig3_2.jpg)
+![](figs/fig3_2.jpg)
 
 Fig.3.2. Proceso de recuperación en un entorno informático.
 
