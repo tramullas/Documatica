@@ -92,7 +92,7 @@ entrecruzan sus características (CODINA, 1990; CODINA Y ABADAL, 1992):
     Technologies (uno de los más completos), Inmagic, CDS-Isis y su
     interfaz WinIsis, Texto\...
     
-    ![fig4_1](figs/fig4_1.jpg)
+    ![](figs/fig4_1.jpg)
 
 Fig.4.1. Interfaz de WinIsis
 
@@ -209,7 +209,7 @@ situaciones, el sistema queda a la espera de nuevas órdenes del usuario,
 sean de ejecutar nuevas búsquedas, sean de visualización de los
 documentos.
 
-![fig4_2](figs/fig4_2.jpg)
+![](figs/fig4_2.jpg)
 
 Fig.4.2. Tratamiento del documento en un STRID
 

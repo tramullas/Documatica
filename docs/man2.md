@@ -108,6 +108,8 @@ conceptual e interno (KORTH y SILBERSCHATZ, 1994:5; MIGUEL y PIATTINI,
 
 ![](figs/fig2_1.jpg)
 
+Fig. 2.1. Niveles de la arquitectura de bases de datos.
+
 En ocasiones puede encontrarse el nivel conceptual divido en dos
 niveles, conceptual y lógico. El primero de ellos corresponde a la
 visión del sistema global desde un punto de vista organizativo
@@ -270,6 +272,8 @@ tarea cualquiera por parte del sistema de gestión de bases de datos
    usuario.
 
 ![](/figs/fig2_2.jpg)
+
+Fig. 2.2. Arquitectura de un Sistema de Bases de Datos.
 
 ## **2.5. Los usuarios.**
 
