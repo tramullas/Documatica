@@ -40,6 +40,8 @@ se ha señalado en la introducción, que la informatización de estas
 tareas se engloba dentro del campo de la Documentación Automatizada o
 Informática Documental.
 
+![](/figs/fig3_1.jpg)
+
 Fig.3.1. Proceso genérico de recuperación de información.
 
 En principio, la recuperación de información engloba las acciones
@@ -222,6 +224,8 @@ necesario puntualizar que la expansión y la aparición de nuevas técnicas
 informáticas pueden modificar tanto el planteamiento como la ejecución
 de las acciones encaminadas a acceder a la información.
 
+![](/figs/fig3_2.jpg)
+
 Fig.3.2. Proceso de recuperación en un entorno informático.
 
 Resulta necesario realizar una última aclaración, referida a la
@@ -296,6 +300,8 @@ en términos de absoluto (presente/ausente), sin consideran el peso
 específico del término en el contexto. En segundo lugar, exigen un alto
 valor de precisión en los términos utilizados. Por último requieren
 claridad en la composición de las expresiones a buscar.
+
+![](figs/fig3_3.jpg)
 
 Fig. 3.3. Los tres operadores booleano básicos.
 
