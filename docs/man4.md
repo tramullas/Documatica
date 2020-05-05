@@ -1,5 +1,8 @@
-**4. SISTEMAS INFORMÁTICOS DE TRATAMIENTO Y RECUPERACIÓN DE INFORMACIÓN
-DOCUMENTAL.**
+---
+
+---
+
+# 4. SISTEMAS INFORMÁTICOS DE TRATAMIENTO Y RECUPERACIÓN DE INFORMACIÓN DOCUMENTAL.
 
 > *Lecturas recomendadas*: SOERGEL, 1985; TRAMULLAS y CUBILLO, 1995;
 > TRAMULLAS, 1996b; SALTON, 1989; MEADOW, 1992; SAFFADY, 1989; WILLET,
@@ -9,7 +12,7 @@ DOCUMENTAL.**
 > DEWIRE, 1994; CONLON y CONLON, 1996; TAGUE SUTCLIFFE, 1996; EWERS,
 > 1994; ELLIS, 1996.
 
-**4.1. La gestión informática de documentos.**
+## **4.1. La gestión informática de documentos.**
 
 Son corrientes, en la actualidad, numerosas denominaciones como Sistemas
 de Gestión Documental, Sistemas de Archivo Electrónico, Sistemas de
@@ -69,15 +72,14 @@ otros, por lo que el panorama de los STRID, tan claro hace pocos años,
 está difuminando sus límites, al igual que sucede en otros ámbitos de la
 informática.
 
-**4. 2. Tipos de sistemas de tratamiento y recuperación de información
-documental.**
+## **4. 2. Tipos de sistemas de tratamiento y recuperación de información documental.**
 
 La recuperación de documentos a través de ecuaciones de búsqueda es
 posible gracias a que existen unas aplicaciones que no sólo las
 ejecutan, sino que son capaces de gestionar, en el sentido más amplio,
 las bases de datos documentales. El proceso de especialización que dio
 lugar a la informática documental ha producido, a su vez, aplicaciones
-especializadas en diferentes aspectos[^1] , que en muchas ocasiones
+especializadas en diferentes aspectos, que en muchas ocasiones
 entrecruzan sus características (CODINA, 1990; CODINA Y ABADAL, 1992):
 
 -   Sistemas de gestión de bases de datos documentales: son sistemas que
@@ -87,85 +89,78 @@ entrecruzan sus características (CODINA, 1990; CODINA Y ABADAL, 1992):
     propios de programación. Debe citarse BRS/Search, de BRS Information
     Technologies (uno de los más completos), Inmagic, CDS-Isis y su
     interfaz WinIsis, Texto\...
+    
+    ![fig4_1](figs/fig4_1.jpg)
 
-![](media/image1.png){width="5.09375in" height="3.7368055555555557in"}
+Fig.4.1. Interfaz de WinIsis
 
-**Fig.4.1. Interfaz de WinIsis**
+- Sistemas de indización: son aquellos que crean ficheros de índice,
+  los cuales contienen los términos existentes en diferentes tipos de
+  ficheros, como por ejemplo ASCII o cualquier procesador de textos, y
+  permiten una limitada recuperación a través de aquéllos, que suele
+  utilizar operadores booleanos. Uno de los más conocidos es ZyIndex.
+- Sistemas de exploración o escáneres: se trata de aplicaciones que,
+  sin necesidad de crear ficheros inversos ni diccionarios, son capaces
+  de acceder a ficheros con diferentes formatos, y buscar dentro de los
+  mismos las cadenas de caracteres que respondan a lo expresado en la
+  ecuación de búsqueda. Pueden encontrarse aplicaciones que combinen la
+  exploración con la indexación, como dtSearch.
+- Sistemas de gestión bibliográfica: sistema especializado para la
+  gestión y mantenimiento de bibliografías especializadas (TRAMULLAS,
+  1996b), es una aplicación específica de los sistemas de gestión de
+  bases documentales, que permiten no sólo el almacenamiento y la
+  recuperación de referencias bibliográficas, sino también la
+  exportación de estas referencias en diferentes formatos de cita
+  bibliográfica a diferentes procesadores de textos, sistemas de gestión
+  de bases de datos, etc. Como ejemplo se pueden citar Reference
+  Manager, ProCite, EndNote\...
+- Sistemas de recuperación de información: son aplicaciones que se
+  encargan exclusivamente de recuperar información de bases de datos
+  documentales no modificables. Ponen a disposición del usuario potentes
+  herramientas de búsqueda y de apoyo a la búsqueda, pero su
+  funcionalidad queda reducida a la consulta y exportación de
+  documentos. Las bases de datos que vienen en soporte CD-ROM utilizan
+  este tipo de sistemas, de los que debe citarse SPIRS (Silver Platter
+  Information Retrieval System) y WinSpirs (versión para Windows de
+  Spirs), así como los proveedores de bases de datos en línea, como
+  DIALOG.
+- Sistemas hipertextuales: en su origen, los hipertextos e
+  hipermedias son una forma de organizar, acceder y explorar documentos
+  de diferentes tipos, que posteriormente se ha popularizado como motor
+  y parte de tutoriales y presentaciones. Actualmente estos sistemas
+  están volviendo a ser considerados como una forma válida y muy
+  avanzada de gestionar documentación (véase *infra* el capítulo
+  correspondiente).
+- Sistemas de Gestión Documental o de Gestión Electrónica de
+  Documentos (GED): se trata de sistemas que pretenden ofrecer una
+  solución integral para la documentación, especialmente administrativa
+  y de gestión, que se utiliza en una organización dada (PRAX, 1994;
+  LASSOURY, 1994). Incorporan funciones clásicas de gestión de bases de
+  datos, y utilizan esquemas de obtención de una copia del documento
+  original mediante escáner, almacenamiento óptico o magneto-óptico, y
+  un nivel básico de descripción textual del documento y de su
+  contenido.
+- Sistemas ó Gestores de información personal (Personal Information
+  Systems/Managers): son aquellos que integran, en un único entorno,
+  todos los documentos, ficheros y relaciones entre ellos que son de
+  interés para el trabajo de un usuario. Numerosos sistemas integrados
+  de informatización ofrecen a sus usuarios un acceso homogéneo a los
+  diferentes tipos de documentos y ficheros que manejan en su trabajo
+  diario.
+- Sistemas compuestos: se denomina así a aquellos que dan soporte a
+  todas las tareas que se realizan en una unidad informativa, sea ésta
+  un archivo, biblioteca o centro de documentación. Esto significa que
+  cubren tanto la cadena documental como la gestión administrativa.
+  Sirvan como ejemplo las aplicaciones de automatización de bibliotecas,
+  como Absys o Libertas, o las aplicaciones de automatización de
+  archivos, como la desarrollada para el Archivo de Indias de Sevilla.
+  Normalmente, integran un motor documental, encargado de gestionar las
+  bases de datos documentales que cubren los catálogos, y un motor
+  relacional, que cubre las tareas administrativas (véase *infra* el
+  capítulo dedicado a una aplicación concreta como es la informatización
+  de bibliotecas)..
 
-> \- Sistemas de indización: son aquellos que crean ficheros de índice,
-> los cuales contienen los términos existentes en diferentes tipos de
-> ficheros, como por ejemplo ASCII o cualquier procesador de textos, y
-> permiten una limitada recuperación a través de aquéllos, que suele
-> utilizar operadores booleanos. Uno de los más conocidos es ZyIndex.
->
-> \- Sistemas de exploración o escáneres: se trata de aplicaciones que,
-> sin necesidad de crear ficheros inversos ni diccionarios, son capaces
-> de acceder a ficheros con diferentes formatos, y buscar dentro de los
-> mismos las cadenas de caracteres que respondan a lo expresado en la
-> ecuación de búsqueda. Pueden encontrarse aplicaciones que combinen la
-> exploración con la indexación, como dtSearch.
->
-> \- Sistemas de gestión bibliográfica: sistema especializado para la
-> gestión y mantenimiento de bibliografías especializadas (TRAMULLAS,
-> 1996b), es una aplicación específica de los sistemas de gestión de
-> bases documentales, que permiten no sólo el almacenamiento y la
-> recuperación de referencias bibliográficas, sino también la
-> exportación de estas referencias en diferentes formatos de cita
-> bibliográfica a diferentes procesadores de textos, sistemas de gestión
-> de bases de datos, etc. Como ejemplo se pueden citar Reference
-> Manager, ProCite, EndNote\...
->
-> \- Sistemas de recuperación de información: son aplicaciones que se
-> encargan exclusivamente de recuperar información de bases de datos
-> documentales no modificables. Ponen a disposición del usuario potentes
-> herramientas de búsqueda y de apoyo a la búsqueda, pero su
-> funcionalidad queda reducida a la consulta y exportación de
-> documentos. Las bases de datos que vienen en soporte CD-ROM utilizan
-> este tipo de sistemas, de los que debe citarse SPIRS (Silver Platter
-> Information Retrieval System) y WinSpirs (versión para Windows de
-> Spirs), así como los proveedores de bases de datos en línea, como
-> DIALOG.
->
-> \- Sistemas hipertextuales: en su origen, los hipertextos e
-> hipermedias son una forma de organizar, acceder y explorar documentos
-> de diferentes tipos, que posteriormente se ha popularizado como motor
-> y parte de tutoriales y presentaciones. Actualmente estos sistemas
-> están volviendo a ser considerados como una forma válida y muy
-> avanzada de gestionar documentación (véase *infra* el capítulo
-> correspondiente).
->
-> \- Sistemas de Gestión Documental o de Gestión Electrónica de
-> Documentos (GED): se trata de sistemas que pretenden ofrecer una
-> solución integral para la documentación, especialmente administrativa
-> y de gestión, que se utiliza en una organización dada (PRAX, 1994;
-> LASSOURY, 1994). Incorporan funciones clásicas de gestión de bases de
-> datos, y utilizan esquemas de obtención de una copia del documento
-> original mediante escáner, almacenamiento óptico o magneto-óptico, y
-> un nivel básico de descripción textual del documento y de su
-> contenido.
->
-> \- Sistemas ó Gestores de información personal (Personal Information
-> Systems/Managers): son aquellos que integran, en un único entorno,
-> todos los documentos, ficheros y relaciones entre ellos que son de
-> interés para el trabajo de un usuario. Numerosos sistemas integrados
-> de informatización ofrecen a sus usuarios un acceso homogéneo a los
-> diferentes tipos de documentos y ficheros que manejan en su trabajo
-> diario.
->
-> \- Sistemas compuestos: se denomina así a aquellos que dan soporte a
-> todas las tareas que se realizan en una unidad informativa, sea ésta
-> un archivo, biblioteca o centro de documentación. Esto significa que
-> cubren tanto la cadena documental como la gestión administrativa.
-> Sirvan como ejemplo las aplicaciones de automatización de bibliotecas,
-> como Absys o Libertas, o las aplicaciones de automatización de
-> archivos, como la desarrollada para el Archivo de Indias de Sevilla.
-> Normalmente, integran un motor documental, encargado de gestionar las
-> bases de datos documentales que cubren los catálogos, y un motor
-> relacional, que cubre las tareas administrativas (véase *infra* el
-> capítulo dedicado a una aplicación concreta como es la informatización
-> de bibliotecas)..
-
-**4.3. Especificidad de los STRID.**
+## **4.3. Especificidad de los STRID.**
 
 Evidentemente, algún tipo de características debe diferenciar a los
 sistemas de tratamiento y recuperación de información, como tales, de
@@ -180,14 +175,12 @@ predicción, a causa de su contenido (MEADOW, 1992; ASHFORD y WILLET,
 1988; SAFFADY, 1989). Las tres características que permiten identificar
 a un STRID son:
 
-> 1\. Utilización de la técnica del fichero inverso.
->
-> 2\. Aplicación de la lógica booleana como método de recuperación de
-> información.
->
-> 3\. Manipulación de registros de extensión variable o indefinida.
+1. Utilización de la técnica del fichero inverso.
+2. Aplicación de la lógica booleana como método de recuperación de
+   información.
+3. Manipulación de registros de extensión variable o indefinida.
 
-*4.3.1. La utilización del fichero inverso.*
+### *4.3.1. La utilización del fichero inverso.*
 
 En primer lugar, la utilización de la técnica del fichero inverso (o
 fichero invertido) es un elemento clásico de los STRID. Dada la gran
@@ -214,10 +207,9 @@ situaciones, el sistema queda a la espera de nuevas órdenes del usuario,
 sean de ejecutar nuevas búsquedas, sean de visualización de los
 documentos.
 
-![](media/image2.wmf){width="4.345138888888889in"
-height="2.817361111111111in"}
+![fig4_2](figs/fig4_2.jpg)
 
-**Fig.4.2. Tratamiento del documento en un STRID**
+Fig.4.2. Tratamiento del documento en un STRID
 
 En la técnica del fichero inverso se ha introducido progresivamente
 mejoras y especializaciones. Así, los ficheros inversos no suelen
@@ -227,7 +219,7 @@ parágrafo, dentro del documento en el que aparece, así como la línea y
 la posición absoluta dentro de la línea, en el modo \"documento 3, campo
 título, línea 2, palabra 4\".
 
-*4.3.2. La lógica booleana.*
+### *4.3.2. La lógica booleana.*
 
 El álgebra booleana es el resultado de la obra de Boole, que estableció
 las bases de las operaciones a través de operadores lógicos. La
@@ -239,7 +231,7 @@ consulta al fichero inverso, y selecciona, de acuerdo a los operadores
 establecidos por el usuario, aquellos que responden a la lógica de la
 ecuación de búsqueda.
 
-*4.3.3. Manipulación de registros de estructura y extensión variable.*
+### *4.3.3. Manipulación de registros de estructura y extensión variable.*
 
 Por último, la capacidad para representar y manipular registros de
 estructura y longitud variable es otra de las características propias de
@@ -250,7 +242,7 @@ registros fuese similar. Sin embargo, las características propias de los
 documentos obligan a que el sistema de bases de datos documentales sea
 capaz de aceptar, almacenar y manipular registros de forma flexible.
 
-**4.4. Tratamiento del texto.**
+## **4.4. Tratamiento del texto.**
 
 El factor crucial que determina la calidad y el éxito de un STRID es su
 capacidad para manipular la información textual, tanto en lo que se
@@ -316,7 +308,7 @@ similares; y los métodos discriminantes, que utilizan un conjunto
 limitado de términos para incluir o excluir los documentos de los
 grupos.
 
-**4.5. Las funciones técnicas de un STRID.**
+## **4.5. Las funciones técnicas de un STRID.**
 
 Los Sistemas de Tratamiento y Recuperación de Información Documentales
 deben ofrecer a sus usuarios, como especializaciones de los SGBD que
@@ -332,86 +324,77 @@ capacidades, más adecuadas a un tratamiento documental e informativo de
 la base de datos (CONLON y CONLON, 1996). En esta situación, un STRID
 debe ser capaz de ofrecer las siguientes funciones:
 
-> 1.- Creación de bases de datos documentales, con una estructura de
-> campos (también llamados parágrafos o párrafos) fija. Los diferentes
-> campos, para lograr un correcto tratamiento de los datos, deben ser de
-> longitud variable y, a ser posible, permitir la creación de subcampos
-> o subparágrafos. Todos los sistemas deben respetar la arquitectura de
-> bases de datos explicada en el capítulo correspondiente.
->
-> 2.- Introducción de datos, tanto de manera interactiva, como de
-> ficheros preexistentes, con posibilidad de conversión de formatos de
-> bases de datos externas. Las funciones de introducción de datos deben
-> permitir controles de entrada, validación, etc, de cara a asegurar, en
-> lo posible, la calidad de los datos introducidos.
->
-> 3.- Recuperación de la información contenida en los documentos de la
-> base de datos a través de cualquier término existente en ella,
-> mediante la formulación de ecuaciones de búsqueda que permitan
-> combinar los términos según diferentes criterios. Los sistemas ofrecen
-> la posibilidad de ejecutar las consultas sobre una o varias bases de
-> datos simultáneamente. Los documentos resultantes se agrupan en sets o
-> conjuntos, susceptibles de combinación posterior.
->
-> 4.- Salida de la información, mediante edición en pantalla, impresión
-> y redirección a ficheros de los documentos de interés para el usuario.
-> Las órdenes de salida de información deben ofrecer la posibilidad de
-> enviar ésta a diferentes destinos, así como los formatos de
-> presentación de los datos a utilizar (tamaño, campos\...). Deben
-> incluirse aquí las capacidades para ordenar, según diferentes
-> criterios, los documentos resultantes. Otra función a considerar es la
-> posibilidad de crear nuevas bases de datos, tomando como base los
-> documentos recuperados en una búsqueda previa.
->
-> 5.- Análisis de la respuesta, utilizando herramientas de análisis de
-> frecuencias de los términos o de coocurrencias.
->
-> 6.- Creación de ficheros que definan el perfil de búsqueda de los
-> usuarios, así como de las ecuaciones que ejecuten. A los ficheros que
-> contienen ecuaciones de búsqueda previamente grabadas, y que pueden
-> ejecutarse en cualquier momento, se les llama normalmente \"macros\".
-> Estas macros son ficheros susceptibles de edición y modificación, lo
-> que facilita la recuperación de información con un mínimo esfuerzo de
-> tiempo y coste.
->
-> 7.- Gestión de mecanismos de control terminológico, tanto para la
-> entrada de datos como para su recuperación. Puede tratarse de un
-> tesauro, de un glosario o de un diccionario terminológico.
->
-> 8.- Ayuda al usuario en todo momento, a través de mensajes y líneas de
-> estado, especialmente durante el proceso de interrogación
-> (interrogación asistida). En sistemas de recuperación en línea
-> (teledocumentación), el sistema informa al usuario del tiempo de
-> conexión, tareas ejecutadas, coste de la sesión, etc. Los mecanismos
-> de ayuda al usuario, especialmente aquellos referidos a la evaluación
-> y refinamiento de las búsquedas, son una de las principales áreas de
-> investigación.
->
-> 9.- Dependiendo de la configuración del sistema, éste puede ofrecer
-> opciones de acceso multiusuario, niveles de seguridad, reorganización
-> y recuperación de ficheros, etc.
+1. Creación de bases de datos documentales, con una estructura de
+   campos (también llamados parágrafos o párrafos) fija. Los diferentes
+   campos, para lograr un correcto tratamiento de los datos, deben ser de
+   longitud variable y, a ser posible, permitir la creación de subcampos
+   o subparágrafos. Todos los sistemas deben respetar la arquitectura de
+   bases de datos explicada en el capítulo correspondiente.
+2. Introducción de datos, tanto de manera interactiva, como de
+   ficheros preexistentes, con posibilidad de conversión de formatos de
+   bases de datos externas. Las funciones de introducción de datos deben
+   permitir controles de entrada, validación, etc, de cara a asegurar, en
+   lo posible, la calidad de los datos introducidos.
+3. Recuperación de la información contenida en los documentos de la
+   base de datos a través de cualquier término existente en ella,
+   mediante la formulación de ecuaciones de búsqueda que permitan
+   combinar los términos según diferentes criterios. Los sistemas ofrecen
+   la posibilidad de ejecutar las consultas sobre una o varias bases de
+   datos simultáneamente. Los documentos resultantes se agrupan en sets o
+   conjuntos, susceptibles de combinación posterior.
+4. Salida de la información, mediante edición en pantalla, impresión
+   y redirección a ficheros de los documentos de interés para el usuario.
+   Las órdenes de salida de información deben ofrecer la posibilidad de
+   enviar ésta a diferentes destinos, así como los formatos de
+   presentación de los datos a utilizar (tamaño, campos\...). Deben
+   incluirse aquí las capacidades para ordenar, según diferentes
+   criterios, los documentos resultantes. Otra función a considerar es la
+   posibilidad de crear nuevas bases de datos, tomando como base los
+   documentos recuperados en una búsqueda previa.
+5. Análisis de la respuesta, utilizando herramientas de análisis de
+   frecuencias de los términos o de coocurrencias.
+6. Creación de ficheros que definan el perfil de búsqueda de los
+   usuarios, así como de las ecuaciones que ejecuten. A los ficheros que
+   contienen ecuaciones de búsqueda previamente grabadas, y que pueden
+   ejecutarse en cualquier momento, se les llama normalmente \"macros\".
+   Estas macros son ficheros susceptibles de edición y modificación, lo
+   que facilita la recuperación de información con un mínimo esfuerzo de
+   tiempo y coste.
+7. Gestión de mecanismos de control terminológico, tanto para la
+   entrada de datos como para su recuperación. Puede tratarse de un
+   tesauro, de un glosario o de un diccionario terminológico.
+8. Ayuda al usuario en todo momento, a través de mensajes y líneas de
+   estado, especialmente durante el proceso de interrogación
+   (interrogación asistida). En sistemas de recuperación en línea
+   (teledocumentación), el sistema informa al usuario del tiempo de
+   conexión, tareas ejecutadas, coste de la sesión, etc. Los mecanismos
+   de ayuda al usuario, especialmente aquellos referidos a la evaluación
+   y refinamiento de las búsquedas, son una de las principales áreas de
+   investigación.
+9. Dependiendo de la configuración del sistema, éste puede ofrecer
+   opciones de acceso multiusuario, niveles de seguridad, reorganización
+   y recuperación de ficheros, etc.
 
-![](media/image3.wmf){width="3.575in" height="3.9916666666666667in"}
+![fig4_3](figs/fig4_3.jpg)
 
-**Fig.4.3. Esquema de un IRS (Information Retrieval System)**
+Fig.4.3. Esquema de un IRS (Information Retrieval System)
 
 En general, las funciones anteriores se engloban en alguno de los seis
 subsistemas genéricos que debe ofrecer un STRID (LANCASTER y WARNER,
 1993: 15-16):
 
-1.- Subsistema de selección de documentos.
+1. Subsistema de selección de documentos.
+2. Subsistema de indización.
 
-2.- Subsistema de indización.
+3. Subsistema de vocabulario.
 
-3.- Subsistema de vocabulario.
+4. Subsistema de búsqueda.
 
-4.- Subsistema de búsqueda.
+5. Subsistema de interacción hombre-máquina.
 
-5.- Subsistema de interacción hombre-máquina.
+6. Subsistema de comparación.
 
-6.- Subsistema de comparación.
-
-**4.6. Consultas al STRID: las ecuaciones de búsqueda.**
+## **4.6. Consultas al STRID: las ecuaciones de búsqueda.**
 
 La búsqueda se realiza sobre un conjunto de términos introducido en el
 sistema por el usuario. Sin embargo, esta es la fase final de un proceso
@@ -426,25 +409,22 @@ vistas a su recuperación dentro de un sistema documental ha producido
 abundante bibliografía en la que pueden analizarse múltiples aspectos
 (TAGUE SUTCLIFFE, 1996).
 
-*4.6.1. El proceso de búsqueda.*
+### *4.6.1. El proceso de búsqueda.*
 
 El proceso de búsqueda de la información es más complejo de lo que pueda
 parecer en un primer momento, y tiene, con posibles variaciones (véase
 el panorama esbozado con anterioridad sobre la recuperación de
 información), las siguientes fases:
 
-> 1.- Definición del tema de búsqueda.
->
-> 2.- Selección de términos descriptivos sobre el tema de búsqueda.
-> Consulta de tesauros o diccionarios, etc.
->
-> 3.- Selección de las bases de datos sobre las que realizar la
-> búsqueda.
->
-> 4.- Formulación y ejecución de ecuaciones de búsqueda.
->
-> 5.- Evaluación de los resultados. Replanteamiento, si procede, de las
-> ecuaciones para ajustar la búsqueda.
+1. Definición del tema de búsqueda.
+2. Selección de términos descriptivos sobre el tema de búsqueda.
+   Consulta de tesauros o diccionarios, etc.
+3. Selección de las bases de datos sobre las que realizar la
+   búsqueda.
+4. Formulación y ejecución de ecuaciones de búsqueda.
+
+5. Evaluación de los resultados. Replanteamiento, si procede, de las
+   ecuaciones para ajustar la búsqueda.
 
 Se debe considerar, además, que la definición del tema y de los términos
 para la búsqueda se hace en lenguaje natural, lenguaje que debe
@@ -468,8 +448,7 @@ conjunto de operadores que expresan la relación que deben mantener los
 términos entre sí. Este segundo tipo de elementos son el objeto de los
 siguientes párrafos.
 
-*4.6.2. Tipos de operadores utilizados en las ecuaciones de
-búsqueda***.**
+### *4.6.2. Tipos de operadores utilizados en las ecuaciones de búsqueda***.**
 
 La combinación de los términos necesarios para la recuperación de los
 documentos adecuados se basa en la utilización de unos operadores,
@@ -518,7 +497,7 @@ restrictivos. Los sistemas de gestión de bases de datos documentales
 incluyen en su documentación tanto los operadores disponibles y su uso,
 como las limitaciones y restricciones establecidas.
 
-*4.6.3. La recuperación mediante exploración.*
+### *4.6.3. La recuperación mediante exploración.*
 
 La utilización de ecuaciones de búsqueda como principal herramienta en
 la recuperación de información plantea problemas, que los enfoques
@@ -534,7 +513,7 @@ contenido, de forma que el sistema sea capaz de llevar al usuario a
 otras informaciones similares o relacionadas, sin necesidad de formular
 nuevas ecuaciones de búsqueda.
 
-*4.6.4. Los resultados: análisis y modificación.*
+### *4.6.4. Los resultados: análisis y modificación.*
 
 Una vez considerado todo lo expuesto, y realizada una búsqueda, es de
 rigor analizar su pertinencia. Una alta pertinencia se caracteriza por
@@ -556,10 +535,3 @@ más genéricos, sinónimos, o ampliación de truncamientos. En un segundo
 caso, si el resultado obtenido es excesivamente amplio, deben utilizarse
 medidas contrarias: utilización de términos más específicos, reducción
 de truncamientos, etc.
-
-[^1]: \* La dinámica de los productos informáticos hace difícil analizar
-    detenidamente las aplicaciones existentes en el mercado. A tal fin,
-    resulta recomendable consultar regularmente publicaciones
-    especializadas de ámbito general, en las que aparecen reseñas e
-    informes de este tipo de aplicaciones, como por ejemplo la revista
-    *Byte*.

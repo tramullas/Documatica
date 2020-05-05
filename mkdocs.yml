@@ -5,13 +5,13 @@ nav:
 - 1. HACIA UN CONCEPTO BÁSICO DE DOCUMENTACIÓN AUTOMÁTICA/DOCUMÁTICA.: man1.md
 - 2. LOS SISTEMAS DE BASES DE DATOS Y LOS SGBD.: man2.md
 - 3. LA RECUPERACIÓN DE INFORMACIÓN.: man3.md
-- Capítulo 4: man4.md
-- Capítulo 5: man5.md
-- Capítulo 6: man6.md
-- Capítulo 7: man7.md
-- Capítulo 8: man8.md
-- Capítulo 9: man9.md
-- Capítulo 10: man10.md
+- 4. SISTEMAS INFORMÁTICOS DE TRATAMIENTO Y RECUPERACIÓN DE INFORMACIÓN.: man4.md
+- 5. HIPERTEXTO E HIPERMEDIA.: man5.md
+- 6. LAS BASES DE DATOS MULTIMEDIA.: man6.md
+- 7. LA TELEDOCUMENTACIÓN.: man7.md
+- 8. INTERNET.: man8.md
+- 9. APROXIMACIÓN A LOS SISTEMAS DE INFORMACIÓN.: man9.md
+- 10. INFORMATIZACIÓN DE UNIDADES DE INFORMACIÓN. AUTOMATIZACIÓN DE BIBLIOTECAS.: man10.md
 - 11. Bibliografía: man11.md
 
 theme: readthedocs

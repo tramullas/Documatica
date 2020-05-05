@@ -1,4 +1,4 @@
-**5. HIPERTEXTO E HIPERMEDIA.**
+# **5. HIPERTEXTO E HIPERMEDIA.**
 
 > *Lecturas recomendadas*: CANALS, 1990; ELLIS, 1990; GARCÍA MARCO,
 > 1996; NIELSEN, 1990; SEYER, 1991; MARTIN, 1990; MOSCOSO y CARIDAD,
@@ -6,7 +6,7 @@
 > CATENAZZI y AEDO, 1996; LANDOW, 1995; COVICE, 1994; RODRÍGUEZ DE LAS
 > HERAS, 1991; LYNCH, 1994.
 
-**5.1. Orígenes del hipertexto.**
+## **5.1. Orígenes del hipertexto.**
 
 Los términos hipertexto e hipermedia son ahora un lugar común al hablar
 de las nuevas tecnologías de presentación y acceso a la información, y
@@ -60,9 +60,9 @@ especializados para organizar la información utilizando, si el usuario
 lo desea, de forma hipertextual, incorporando mecanismos de acceso a
 diferentes tipos de información (gráfica, sonora\...).
 
-**5.2. Conceptos de hipertexto e hipermedia.**
+## **5.2. Conceptos de hipertexto e hipermedia.**
 
-*5.2.1. Hipertexto.*
+### *5.2.1. Hipertexto.*
 
 Las ideas expuestas en el bloque anterior deben servir como una primera
 aproximación al concepto de hipertexto. Como señaló Nelson, el
@@ -83,7 +83,7 @@ directo uno a otro, o a la parte de los mismos que sea pertinente. Por
 otra parte, es establecen varios caminos posibles para acceder a la
 misma información.
 
-*5.2.2. Hipermedia.*
+### *5.2.2. Hipermedia.*
 
 El panorama esbozado es perfectamente comprensible desde una perspectiva
 textual, en la que los nodos corresponden a documentos con información
@@ -112,11 +112,11 @@ dinámico, cuyas características ha resaltado Martin (MARTIN, 1990: xii):
 > themselves to user's needs. Many separate documents can be
 > electronically interlinked."
 
-**Fig.5.1. El hipertext/hipermedia se basa en el enlace entre**
+![fig5_1](figs/fig5_1.jpg)
 
-**informaciones de diferente tipo.**
+Fig.5.1. El hipertexto/hipermedia se basa en el enlace entre informaciones de diferente tipo.
 
-**5. 3. Componentes de un sistema de hipertexto/hipermedia.**
+## **5. 3. Componentes de un sistema de hipertexto/hipermedia.**
 
 Para que sea posible una existencia real de los conceptos de hipertexto
 e hipermedia, deben utilizarse aplicaciones que sean capaces de crear
@@ -125,21 +125,17 @@ ofrecen unos elementos particulares que facilitan la creación y
 navegación por las estructuras hipertextuales (CONKLIN, 1987; NIELSEN,
 1990: 101-114):
 
-> 1\. Un conjunto de ficheros que contienen los documentos relacionados.
->
-> 2\. Ventanas de presentación de los documentos, las cuales son
-> modificables en tamaño y posición.
->
-> 3\. Dispositivos señaladores, que facilitan la selección y el acceso a
-> los documentos mostrados en las ventanas.
->
-> 4\. Punteros o enlaces, que generalmente utilizan una representación
-> gráfica distinta a la del resto del material informativo, en forma de
-> color, iconos, botones\...
->
-> 5\. Herramientas de creación de enlaces y anotación de la navegación,
-> lo que da al usuario la posibilidad de crear sus propias asociaciones
-> y documentos.
+1. Un conjunto de ficheros que contienen los documentos relacionados.
+2. Ventanas de presentación de los documentos, las cuales son
+   modificables en tamaño y posición.
+3. Dispositivos señaladores, que facilitan la selección y el acceso a
+   los documentos mostrados en las ventanas.
+4. Punteros o enlaces, que generalmente utilizan una representación
+   gráfica distinta a la del resto del material informativo, en forma de
+   color, iconos, botones\...
+5. Herramientas de creación de enlaces y anotación de la navegación,
+   lo que da al usuario la posibilidad de crear sus propias asociaciones
+   y documentos.
 
 Estas funcionalidades se integran en una herramienta que en el entorno
 hipertextual es conocida como "browser", navegador o visualizador. El
@@ -169,11 +165,11 @@ aplicaciones o de tomar decisiones, acordes con la actividad
 desarrollada por el usuario, tanto en la utilización de los enlaces como
 en el acceso a los contenedores.
 
-![](media/image2.emf){width="5.117361111111111in" height="4.3625in"}
+![fig5_2](figs/fig5_2.jpg)
 
-**Fig.5.2. Ayuda de Windows 95: un sistema de hipertexto.**
+Fig.5.2. Ayuda de Windows 95: un sistema de hipertexto.
 
-**5.4. Tipos de sistemas de hiperdocumentos.**
+## **5.4. Tipos de sistemas de hiperdocumentos.**
 
 Las aplicaciones de los sistemas hipermedia pueden ser múltiples, y sólo
 se encuentran limitadas por la capacidad de la aplicación o herramienta
@@ -181,26 +177,21 @@ elegida, y por los criterios fijados por los creadores y usuarios. Se
 han establecido algunas grandes categorías que engloban las posibles
 clases de sistemas (MARTIN, 1990):
 
-> 1\. Macroliterarios: trabajos y artículos relacionados con
-> bibliografías, críticas, comentarios\...
->
-> 2\. Colecciones de documentos: información organizada sobre un tema,
-> de gran tamaño (servicios de información industrial y técnica,
-> servicios bibliotecarios\...)
->
-> 3\. Herramientas de exploración de problemas: organizar material e
-> ideas desconectadas para estructurar una idea general.
->
-> 4\. Conjunto interrelacionados de información: informaciones diversas
-> que son útiles si se asocian (modelos complejos, información
-> policial\...).
->
-> 5\. Documentos largos y complejos: manuales, regulaciones\...
-> (productos, metodologías, referencias legales, guías\...).
->
-> 6\. Documentos inteligentes: combinado con inteligencia artificial
-> mediante sistemas expertos (Diagnósticos, autoenseñanza, ayuda
-> sensible al contexto\...)
+1. Macroliterarios: trabajos y artículos relacionados con
+   bibliografías, críticas, comentarios\...
+2. Colecciones de documentos: información organizada sobre un tema,
+   de gran tamaño (servicios de información industrial y técnica,
+   servicios bibliotecarios\...)
+3. Herramientas de exploración de problemas: organizar material e
+   ideas desconectadas para estructurar una idea general.
+4. Conjunto interrelacionados de información: informaciones diversas
+   que son útiles si se asocian (modelos complejos, información
+   policial\...).
+5. Documentos largos y complejos: manuales, regulaciones\...
+   (productos, metodologías, referencias legales, guías\...).
+6. Documentos inteligentes: combinado con inteligencia artificial
+   mediante sistemas expertos (Diagnósticos, autoenseñanza, ayuda
+   sensible al contexto\...)
 
 La anterior divisiión no es obstáculo para poner en relación, en un
 sistema informático, una aplicación de hipertexto con otras
@@ -208,7 +199,7 @@ aplicaciones, de cuya interacción puedan beneficiarse ambas, como pueda
 ser un sistema de gestión de bases de datos, aplicaciones ofimáticas,
 sistemas de apoyo a la decisión, ayudas en línea o sistemas expertos.
 
-**5.5. Navegación y exploración de un sistema hipertextual.**
+## **5.5. Navegación y exploración de un sistema hipertextual.**
 
 La utilización de un sistema hipertextual por parte de un usuario se
 basa en la navegación o exploración de los contenidos informativos del
@@ -227,9 +218,9 @@ transición establecida y controlada por el usuario final (COVICE, 1994).
 Por lo tanto, los sistemas deben ofrecer mecanismo de apoyo a la
 navegación, en dos áreas:
 
-1.- Revisión histórica del proceso de exploración.
+1. Revisión histórica del proceso de exploración.
 
-2.- Situación del usuario dentro del espacio informativo.
+2. Situación del usuario dentro del espacio informativo.
 
 Los sistemas deben ofrecer al usuario mecanismos para controlar en todo
 momento el proceso seguido, desde el comienzo, hasta llegar al documento
@@ -242,8 +233,7 @@ deseado. Estos mecanismos de apoyo pueden implementarse directamente, o
 bien utilizar metáforas (bi o tridimensionales), representativas de las
 acciones y decisiones del usuario (NELSON, 1990: 127-137).
 
-**5.6. La recuperación de información en un sistema de hipertexto o
-hipermedios.**
+## **5.6. La recuperación de información en un sistema de hipertexto o hipermedios.**
 
 El acceso al documento, en el contexto de los sistemas de recuperación
 de información y de bases de datos documentales, se realiza,
@@ -259,24 +249,19 @@ En el acceso y la recuperación de información en un sistema de
 hipertexto o hipermedios se han diferenciado seis grandes categorías de
 actividad (ELLIS, 1990):
 
-> 1\. Inicio: fase inicial de búsqueda de información.
->
-> 2\. Encadenado: proceso de navegación siguiendo las secuencias entre
-> documentos o conceptos pertinentes, utilizando los enlaces existentes
-> en los documentos.
->
-> 3\. Búsqueda por visualización: también llamada búsqueda semi-directa.
-> Consiste en consultar listados de referencias o enlaces que el sistema
-> debe ofrecer al usuario, previo al acceso al documento.
->
-> 4\. Diferenciación: empleo de diferencias entre varias fuentes, y sus
-> tipos, como criterio de filtro y calidad de los documentos.
->
-> 5\. Monitorización: control del desarrollo de un área de conocimiento
-> utilizando como referencia fuentes seleccionadas.
->
-> 6\. Extracción: uso sistemático de una fuente como herramienta de
-> identificación de información pertinente.
+1. Inicio: fase inicial de búsqueda de información.
+2. Encadenado: proceso de navegación siguiendo las secuencias entre
+   documentos o conceptos pertinentes, utilizando los enlaces existentes
+   en los documentos.
+3. Búsqueda por visualización: también llamada búsqueda semi-directa.
+   Consiste en consultar listados de referencias o enlaces que el sistema
+   debe ofrecer al usuario, previo al acceso al documento.
+4. Diferenciación: empleo de diferencias entre varias fuentes, y sus
+   tipos, como criterio de filtro y calidad de los documentos.
+5. Monitorización: control del desarrollo de un área de conocimiento
+   utilizando como referencia fuentes seleccionadas.
+6. Extracción: uso sistemático de una fuente como herramienta de
+   identificación de información pertinente.
 
 Las categorizaciones establecidas demandan del sistema que soporta la
 estructura hipertextual avanzadas funcionalidades: recuperación en texto
@@ -286,7 +271,7 @@ recuperación de información en un sistema de estas características está
 íntimamente ligado con las herramientas de soporte que ofrece, no sólo
 de organización y de visualización.
 
-**5.7. La creación y organización de hiperdocumentos.**
+## **5.7. La creación y organización de hiperdocumentos.**
 
 Los sistemas de hipertexto e hipermedia ofrecen al usuario la
 posibilidad de navegar, utilizando criterios de asociación, entre gran

@@ -1,4 +1,4 @@
-**6. LAS BASES DE DATOS MULTIMEDIA.**
+# **6. LAS BASES DE DATOS MULTIMEDIA.**
 
 > *Lecturas recomendadas*: CHORAFAS, 1994; MCKNIGHT, DILLON y
 > RICHARDSON, 1991; LÓPEZ YEPES, 1993; NICHOLLS y RIDLEY, 1996; KOEGEL,
@@ -6,7 +6,7 @@
 > HOUTSMA, 1997; AZORÍN y LÓPEZ, 1994; DÍAZ, CATENAZZI y AEDO, 1996;
 > FONG y SIU, 1996; MEGHANI, RABITTI y THANOS, 1991; OZKARAHAN, 1995.
 
-**6.1. Multimedia y nuevos documentos.**
+## **6.1. Multimedia y nuevos documentos.**
 
 El término multimedia ofrece dos problemas. En primer lugar, el entorno,
 mercado o ámbito que delimitan a multimedia todavía no ha sido bien
@@ -72,7 +72,7 @@ el campo de la edución y la formación, etc., (APERS, BLANKEN y HOUTSMA,
 incorporarán al tratamiento documental tradicional todas estas
 herramientas.
 
-**6.2. La integración de multimedia en las bases de datos.**
+## **6.2. La integración de multimedia en las bases de datos.**
 
 La aparición y desarrollo de la tecnología multimedia ha revolucionado
 el concepto tradicional de base de datos, entendidas como elementos de
@@ -106,7 +106,7 @@ los diferentes tipos de datos, tanto como las relaciones de
 configuración y temporales existentes entre ellos. Los datos deben estar
 sincronizados, controlando tanto su estado como su comportamiento.
 
-*6.2.1. Los documentos multimedia.*
+### *6.2.1. Los documentos multimedia.*
 
 Los documentos multimedia se forman mediante la agregación de objetos de
 diferentes tipos, objetos que pueden ser de gran tamaño, y llegan a
@@ -136,13 +136,12 @@ diferentes localizaciones geográficas. Estas circunstancias exigen que
 la implantación y explotación de bases de datos multimedia exija dos
 elementos:
 
-> 1\. La disponibilidad de bases de datos avanzadas, en un entorno de
-> fácil utilización por parte del usuario.
->
-> 2\. El establecimiento de redes de telecomunicaciones de alta
-> velocidad.
+1. La disponibilidad de bases de datos avanzadas, en un entorno de
+   fácil utilización por parte del usuario.
+2. El establecimiento de redes de telecomunicaciones de alta
+   velocidad.
 
-*6.2.2. Los sistemas de gestión de bases de datos multimedia.*
+### *6.2.2. Los sistemas de gestión de bases de datos multimedia.*
 
 De hecho, es la heterogeneidad de los tipos de información que son
 necesarios en la actualidad unas las razones que ha favorecido, por
@@ -157,28 +156,20 @@ capaces de utilizar \"inteligentemente\" los datos disponibles, e
 integrar las viejas y las antiguas aplicaciones de forma no traumática.
 Una base de información hipermedial tiene varios componentes:
 
-1.  Base de presentación: parámetros a aplicar para mostrar la
-    > información al usuario.
-
-2.  Base de estructura: visión lógica del hiperdocumento, según un
-    > modelo.
-
-3.  Base de contenido: conjunto de documentos que se integran en el
-    > hiperdocumento.
-
-4.  Base de utilización: información sobre hábitos y comportamiento de
-    > cada usuario.
+1. Base de presentación: parámetros a aplicar para mostrar la información al usuario.
+2. Base de estructura: visión lógica del hiperdocumento, según un modelo.
+3. Base de contenido: conjunto de documentos que se integran en el hiperdocumento.
+4. Base de utilización: información sobre hábitos y comportamiento de cada usuario.
 
 En este mismo sentido, la concepción de una base de datos multimedia, en
 su modelo conceptual (correspondiente al esquema conceptual definido por
 ANSI/X3/SPARC), debe cumplir dos fases (CHORAFAS, 1994: 312):
 
-> 1\. Cognición, centrado en cómo reconocer el mundo real, sus entidades
-> y relaciones.
->
-> 2\. Modelización, centrado en cómo representar los conocimientos
-> obtenidos en la fase anterior, de manera que sean manipulables por la
-> máquina.
+1. Cognición, centrado en cómo reconocer el mundo real, sus entidades
+   y relaciones.
+2. Modelización, centrado en cómo representar los conocimientos
+   obtenidos en la fase anterior, de manera que sean manipulables por la
+   máquina.
 
 A pesar de ser la integración de bases de datos heterogéneas una de las
 razones del desarrollo de sistemas de gestión de bases de datos
@@ -198,9 +189,9 @@ tecnología. Si puede decirse que es posible establecerse un algoritmo
 que define el proceso de formateo y composición del documento, en dos
 niveles:
 
-> 1\. Jerarquía lógica del contenido del documento.
->
-> 2\. Jerarquía física del documento formateado.
+1. Jerarquía lógica del contenido del documento.
+
+2. Jerarquía física del documento formateado.
 
 Esta es la premisa que define la norma ODA (Open Document Architecture)
 de ISO. En lo que respecta a otros estándares, la norma ISO que define
@@ -209,10 +200,12 @@ protocolo ANSI X.12 están más orientados a la estructura del documento
 que a sus posibles aspectos multimedia, lo que por el momento dificulta
 su aplicación real.
 
-**Fig.6.1. Los tres niveles de un sistema de bases de datos
-multimedia.**
+![fig6_1](figs/fig6_1.jpg)
 
-**6.3. La metodología en una base de datos multimedia.**
+Fig.6.1. Los tres niveles de un sistema de bases de datos
+multimedia.
+
+## **6.3. La metodología en una base de datos multimedia.**
 
 La creación e implantación de un sistema de bases de datos multimedia no
 puede separarse de la adopción de una metodología adecuada para ello. De
@@ -220,22 +213,18 @@ la misma forma que en los sistemas \"tradicionales\" de bases de datos,
 el enfoque a utilizar es el basado en un sistema integrado de
 información:
 
-> 1\. Definición de las tareas y objetivos a cumplir por la unidad
-> informativa.
->
-> 2\. Desarrollo de un metamodelo y de una metodología para el
-> desarrollo de un sistema de información estratégica.
->
-> 3\. Inventario de los elementos de tecnologías de la información
-> disponibles.
->
-> 4\. Inventario de las herramientas y de los repositorios de
-> información existentes.
->
-> 5\. Creación de un diccionario de metadatos y de su metodología.
->
-> 6\. Consolidación de las conclusiones obtenidas, a través de
-> metamodelos.
+1. Definición de las tareas y objetivos a cumplir por la unidad
+   informativa.
+2. Desarrollo de un metamodelo y de una metodología para el
+   desarrollo de un sistema de información estratégica.
+3. Inventario de los elementos de tecnologías de la información
+   disponibles.
+4. Inventario de las herramientas y de los repositorios de
+   información existentes.
+5. Creación de un diccionario de metadatos y de su metodología.
+
+6. Consolidación de las conclusiones obtenidas, a través de
+   metamodelos.
 
 La utilización de este tipo de bases de datos, en lo que se incluyen
 representaciones complejas de la realidad, hace necesario la utilización
@@ -245,7 +234,7 @@ lugar, un nivel de datos, concreto y analítico. El concepto clave de las
 nuevas bases de datos, a partir de la presente década, será
 \"significado\", superando el clásico \"dato\" o \"información\".
 
-**6.4. Documentación y bases de datos multimedia.**
+## **6.4. Documentación y bases de datos multimedia.**
 
 En lo que respecta al ámbito documental, las bases de datos multimedia
 facilitarán el enriquecimiento de la representación de la información
@@ -290,23 +279,19 @@ avanzados, permitir el diseño de estructuras de datos muy flexibles, y
 ofrecer mecanismos de búsqueda altamente efectivos. Como corolario, un
 sistema de este tipo debería (CHORAFAS, 1994: 338-339):
 
-> 1\. Encontrar rápidamente la información multimedia, buscando
-> cualquier número de objetos referidos a un contenido de información,
-> en un contexto de texto completo (y, a poder ser, en un contexto
-> totalizador de la información)
->
-> 2\. Conectar documentos según su contenido informativo, relacionando
-> extractos de información relacionada de varios documentos, en uno
-> nuevo.
->
-> 3\. Facilitar el acceso instantáneo a los ficheros pertinentes,
-> incluyendo los mecanismos necesarios de compresión y descompresión
-> para la manipulación de aquellos.
->
-> 4\. Conocer y manipular, por parte del usuario, la estructura misma de
-> la información.
->
-> 5\. Crear relaciones entre grupos de elementos informativos.
+1. Encontrar rápidamente la información multimedia, buscando
+   cualquier número de objetos referidos a un contenido de información,
+   en un contexto de texto completo (y, a poder ser, en un contexto
+   totalizador de la información)
+2. Conectar documentos según su contenido informativo, relacionando
+   extractos de información relacionada de varios documentos, en uno
+   nuevo.
+3. Facilitar el acceso instantáneo a los ficheros pertinentes,
+   incluyendo los mecanismos necesarios de compresión y descompresión
+   para la manipulación de aquellos.
+4. Conocer y manipular, por parte del usuario, la estructura misma de
+   la información.
+5. Crear relaciones entre grupos de elementos informativos.
 
 Los documentos pueden encontrarse en una única localización, en un
 computador local, o bien ser el resultado de la integración de datos y
@@ -321,7 +306,7 @@ es la presencia de un diccionario de datos, repositorio general a través
 del cual se disponen las definiciones estándares de los objetos
 presentes en toda la extensión de la base de datos.
 
-**6.5. Hipermedia.**
+## **6.5. Hipermedia.**
 
 Un desarrollo de las bases de datos multimedia distribuidas, combinadas
 con el hipertexto, es el servicio hipermedia (*vid. supra*). Hipermedia
@@ -344,15 +329,12 @@ y AEDO, 1996: 185-191):
 
 2.  El hiperdocumento es dinámicamente modificable.
 
-3.  Es necesario guardar información sobre la presentación física de los
-    > contenidos.
-
-4.  Se debe dar soporte a todos los tipos de acceso a los sistemas
-    > hipermediales.
-
-5.  El hiperdocumento debe ser abierto y puede estar físicamente
-    > distribuido.
-
+3.  Es necesario guardar información sobre la presentación física de los contenidos.
+    
+4.  Se debe dar soporte a todos los tipos de acceso a los sistemas hipermediales.
+    
+5.  El hiperdocumento debe ser abierto y puede estar físicamente distribuido.
+    
 6.  El sistema debe incluir mecanismos de recuperación ante fallos.
 
 7.  Debe permitirse el acceso concurrente.
@@ -361,7 +343,6 @@ y AEDO, 1996: 185-191):
 
 9.  Hay que posibilitar el trabajo en cooperación.
 
-10. El hiperdocumento puede estructurarse siguiendo uan determinada
-    > jerarquía.
-
+10. El hiperdocumento puede estructurarse siguiendo uan determinada jerarquía.
+    
 11. Existen contenidos virtuales enlazados dinámicamente.

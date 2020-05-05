@@ -1,4 +1,4 @@
-**7. LA TELEDOCUMENTACIÓN.**
+# **7. LA TELEDOCUMENTACIÓN.**
 
 > *Lecturas recomendadas*: ABOBA, 1993; WALKER y JONES, 1993; LANCASTER
 > y WARNER, 1993; AMSTRONG y LARGE, 1988; BASCH, 1993; BATES, 1987;
@@ -6,7 +6,7 @@
 > HAWKINS *et alii*, 1985; LIZASOAÍN, 1992; MEADOW, 1992; COX, 1991;
 > CONVEY, 1992.
 
-**7.1. Concepto de teledocumentación.**
+## **7.1. Concepto de teledocumentación.**
 
 La teledocumentación, que consiste en el acceso y la consulta de bases
 de datos existentes en una localización remota, lejana al usuario,
@@ -53,46 +53,41 @@ de las ocasiones, lo que hace preferible utilizar el término
 teledocumentación, con unas características ya definidas, frente al
 término "online", basado en consideraciones técnicas ya superadas.
 
-**7.2. Los actores de la teledocumentación.**
+## **7.2. Los actores de la teledocumentación.**
 
 La teoría tradicional sobre teledocumentación (LANCASTER y WARNER, 1993)
 establece la existencia de cuatro actores en el proceso teledocumental:
 
-> 1\. Productores de bases de datos: son los diseñadores y creadores de
-> las bases de datos, que posteriormente son accesibles al usuario.
-> Estos creadores desarrollan un producto, según diferentes estudios de
-> mercado y de necesidades de información, seleccionado el área de
-> cobertura, los fondos incluidos, y dan soporte al desarrollo y
-> crecimiento posterior de la base de datos.
->
-> 2\. Distribuidores o \"host\": este segundo actor es el encargado de
-> situar la base de datos a disposición de los usuarios interesados,
-> actuando como intermediario entre el productor y el usuario. Establece
-> una serie de convenios con los productores para ofrecer sus bases de
-> datos, a través de contratos con los usuarios. Normalmente suelen
-> disponer de una compleja estructura informática para hacer frente a
-> numerosas consultas simultáneas por parte de los usuarios.
->
-> En numerosas ocasiones, los host son también productores de bases de
-> datos, lo que puede abaratar sus servicios. Por contra, los
-> productores suelen licenciar sus bases de datos a varios
-> distribuidores, con la finalidad de favorecer la competencia y obtener
-> mejores resultados.
->
-> 4\. Redes de comunicaciones: las redes de comunicaciones son la
-> infraestructura técnica que permite el establecimiento de comunicación
-> entre el distribuidor o host y los usuarios finales. Dependiendo de la
-> situación y de la normativa existente en cada país, la tipología puede
-> ser muy variada, tanto en el ámbito económico como en el ámbito
-> técnico.
->
-> 5\. Usuarios finales: son los usuarios y demandantes de la información
-> almacenada en las bases de datos mantenidas por los host. Disponen de
-> una terminal informática conectada a la red de comunicaciones
-> pertinente, lo que les permite acceder a las bases de datos ofrecidas
-> por el distribuidor, tras el pertinente contrato de ambos servicios.
+1. Productores de bases de datos: son los diseñadores y creadores de
+   las bases de datos, que posteriormente son accesibles al usuario.
+   Estos creadores desarrollan un producto, según diferentes estudios de
+   mercado y de necesidades de información, seleccionado el área de
+   cobertura, los fondos incluidos, y dan soporte al desarrollo y
+   crecimiento posterior de la base de datos.
+2. Distribuidores o \"host\": este segundo actor es el encargado de
+   situar la base de datos a disposición de los usuarios interesados,
+   actuando como intermediario entre el productor y el usuario. Establece
+   una serie de convenios con los productores para ofrecer sus bases de
+   datos, a través de contratos con los usuarios. Normalmente suelen
+   disponer de una compleja estructura informática para hacer frente a
+   numerosas consultas simultáneas por parte de los usuarios. En numerosas ocasiones, los host son también productores de bases de
+   datos, lo que puede abaratar sus servicios. Por contra, los
+   productores suelen licenciar sus bases de datos a varios
+   distribuidores, con la finalidad de favorecer la competencia y obtener
+   mejores resultados.
+3. Redes de comunicaciones: las redes de comunicaciones son la
+   infraestructura técnica que permite el establecimiento de comunicación
+   entre el distribuidor o host y los usuarios finales. Dependiendo de la
+   situación y de la normativa existente en cada país, la tipología puede
+   ser muy variada, tanto en el ámbito económico como en el ámbito
+   técnico.
+4. Usuarios finales: son los usuarios y demandantes de la información
+   almacenada en las bases de datos mantenidas por los host. Disponen de
+   una terminal informática conectada a la red de comunicaciones
+   pertinente, lo que les permite acceder a las bases de datos ofrecidas
+   por el distribuidor, tras el pertinente contrato de ambos servicios.
 
-*7.2.1. El papel de los soportes ópticos.*
+### *7.2.1. El papel de los soportes ópticos.*
 
 La teledocumentación ha sido puesta en entredicho en el cambio entre la
 década de 1980 y la década de 1990. La popularización de las bases de
@@ -113,7 +108,7 @@ posee una ventaja innegable frente a la teledocumentación (LIZASOAÍN,
 usuario y del tipo de información, más que sobre las características de
 la tecnología utilizada.
 
-*7.2.2. Otros servicios de información en línea*.
+### *7.2.2. Otros servicios de información en línea*.
 
 El mundo de los servicios de información en línea resulta ser sumamente
 dinámico y cambiante. En épocas recientes se ha visto una rápida
@@ -142,7 +137,7 @@ utilización como terminal de cualquier ordenador equipado con modem, han
 sido factores de éxito que han favorecido, casi sin transición, la
 entrada en el mundo de Internet.
 
-**7.3. Herramientas del usuario final.**
+## **7.3. Herramientas del usuario final.**
 
 El documentalista, como principal usuario final, e intermediario de
 otros posibles usuarios, debe disponer de un equipo que le permita
@@ -181,7 +176,8 @@ ofrecidas por el propio host. Incluso alguno de ellos facilita con el
 contrato un software de comunicaciones y terminal especialmente diseñado
 para la consulta de sus bases de datos.
 
-**7.4. El IRS (Information Retrieval System/Sistema de Recuperación de
+## 7.4. El IRS (Information Retrieval System/Sistema de Recuperación de
+
 Información).**
 
 Una vez conectado el usuario al servicio, y validada su autorización, se
@@ -201,61 +197,51 @@ del software de comunicaciones y/o terminal.
 Las funciones más comunes desempeñadas por los IRS (HAWKINS *et alii*,
 1985) corresponden a:
 
-> 1\. Acceso y notificación: funciones relacionadas con la conexión y
-> proceso de autentificación de un usuario, así como notificación de las
-> modificaciones, novedades, etc. del servicio que se le presta.
->
-> 2\. Selección de bases de datos: permite al usuario seleccionar cual
-> de las bases de datos existentes va a consultar. Casi todos los
-> sistemas ofrecen la posibilidad de buscar en varias al mismo tiempo.
->
-> 3\. Búsqueda por fichero inverso o tesauro: el usuario consulta el
-> contenido de estos ficheros para comprobar la existencia de los
-> términos a utilizar en ecuaciones posteriores, las relaciones con
-> otros términos, etc. Este tipo de consulta no supone la recuperación
-> de registros.
->
-> 4\. Creación de subconjuntos: la respuesta a una ecuación crea un
-> subconjunto virtual de documentos, sobre los que es posible ejecutar
-> combinaciones con otros subconjuntos, o acciones de manipulación.
->
-> 5\. Búsqueda de cadenas de caracteres: funciones de búsqueda de texto
-> (analizadas en el capítulo dedicado a las bases de datos
-> documentales).
->
-> 6\. Análisis de subconjuntos: ofrecen funciones que permiten un somero
-> análisis numérico del número de ocurrencias, frecuencias de años de
-> publicación, etc.
->
-> 7\. Ordenación, visualización y formato de registros: funciones
-> relacionadas con la presentación por pantalla de los registros, según
-> criterios de ordenación, uso de diferentes formatos de visualización,
-> etc.
->
-> 8\. Impresión, descarga y solicitud: tanto en el ordenador local como
-> en el host, se incluye la posibilidad de enviar los registros por
-> correo electrónico. Además, es posible, en algunos casos, obtener
-> copias de los registros para uso local, en formato electrónico,
-> mediante teledescarga. Por último, ofrecen la posibilidad de solicitar
-> una copia del documento primario.
->
-> 9\. Archivo, ejecución y edición de ecuaciones: los host ofrecen a sus
-> usuarios la posibilidad de almacenar las ecuaciones de búsqueda de su
-> interés, para ejecutarlas en sesiones posteriores, modificándolas si
-> es preciso. De esta forma pueden incluso crear perfiles de usuario,
-> que faciliten las búsquedas retrospectivas, y la difusión selectiva de
-> la información.
->
-> 10\. Control de sesión: información al usuario de los tiempos de
-> conexión, ecuaciones ejecutadas, documentos obtenidos y los costes
-> derivados de todo ello.
+1. Acceso y notificación: funciones relacionadas con la conexión y
+   proceso de autentificación de un usuario, así como notificación de las
+   modificaciones, novedades, etc. del servicio que se le presta.
+2. Selección de bases de datos: permite al usuario seleccionar cual
+   de las bases de datos existentes va a consultar. Casi todos los
+   sistemas ofrecen la posibilidad de buscar en varias al mismo tiempo.
+3. Búsqueda por fichero inverso o tesauro: el usuario consulta el
+   contenido de estos ficheros para comprobar la existencia de los
+   términos a utilizar en ecuaciones posteriores, las relaciones con
+   otros términos, etc. Este tipo de consulta no supone la recuperación
+   de registros.
+4. Creación de subconjuntos: la respuesta a una ecuación crea un
+   subconjunto virtual de documentos, sobre los que es posible ejecutar
+   combinaciones con otros subconjuntos, o acciones de manipulación.
+5. Búsqueda de cadenas de caracteres: funciones de búsqueda de texto
+   (analizadas en el capítulo dedicado a las bases de datos
+   documentales).
+6. Análisis de subconjuntos: ofrecen funciones que permiten un somero
+   análisis numérico del número de ocurrencias, frecuencias de años de
+   publicación, etc.
+7. Ordenación, visualización y formato de registros: funciones
+   relacionadas con la presentación por pantalla de los registros, según
+   criterios de ordenación, uso de diferentes formatos de visualización,
+   etc.
+8. Impresión, descarga y solicitud: tanto en el ordenador local como
+   en el host, se incluye la posibilidad de enviar los registros por
+   correo electrónico. Además, es posible, en algunos casos, obtener
+   copias de los registros para uso local, en formato electrónico,
+   mediante teledescarga. Por último, ofrecen la posibilidad de solicitar
+   una copia del documento primario.
+9. Archivo, ejecución y edición de ecuaciones: los host ofrecen a sus
+   usuarios la posibilidad de almacenar las ecuaciones de búsqueda de su
+   interés, para ejecutarlas en sesiones posteriores, modificándolas si
+   es preciso. De esta forma pueden incluso crear perfiles de usuario,
+   que faciliten las búsquedas retrospectivas, y la difusión selectiva de
+   la información.
+10. Control de sesión: información al usuario de los tiempos de
+    conexión, ecuaciones ejecutadas, documentos obtenidos y los costes
+    derivados de todo ello.
 
-![](media/image1.emf){width="5.114583333333333in"
-height="2.9291666666666667in"}
+![fig7_1](figs/fig7_1.jpg)
 
-**Fig.7.1. Una sesión en el host ECHO.**
+Fig.7.1. Una sesión en el host ECHO.
 
-**7.5. La creación de bases de datos en línea.**
+## **7.5. La creación de bases de datos en línea.**
 
 La teledocumentación es, como se ha apuntado, un negocio. Como tal, la
 existencia de una base de datos consultable en línea, mediante un
@@ -266,27 +252,22 @@ información que pueda contener la futura base de datos. Una vez tomada
 la decisión inicial de crear la base de datos, es necesario adoptar
 otras decisiones complementarias que atañen a los siguientes aspectos:
 
-> 1\. Cobertura de la base de datos: área o campo que va a cubrir la
-> base de datos.
->
-> 2\. Diseño de los registros individuales: determinación de las
-> categorías de datos que permitirán representar a las entidades.
->
-> 3\. Selección de las fuentes primarias: selección de las fuentes y de
-> los documentos de los que se recopilará información para ser
-> introducida en la base de datos, de la cobertura temporal y espacial
-> de los mismos, etc.
->
-> 4\. Creación del contenido de los registros: introducción de los datos
-> pertinentes, tomando en consideración las reglas de descripción y de
-> uso del lenguaje, de catalogación, de composición de consultas\...
->
-> 5\. Mecanismos de introducción, manipulación y actualización de los
-> datos.
->
-> 6\. Control de calidad: mecanismos que aseguren la adecuación del
-> contenido de los registros a la realidad, y la satisfacción del
-> usuario.
+1. Cobertura de la base de datos: área o campo que va a cubrir la
+   base de datos.
+2. Diseño de los registros individuales: determinación de las
+   categorías de datos que permitirán representar a las entidades.
+3. Selección de las fuentes primarias: selección de las fuentes y de
+   los documentos de los que se recopilará información para ser
+   introducida en la base de datos, de la cobertura temporal y espacial
+   de los mismos, etc.
+4. Creación del contenido de los registros: introducción de los datos
+   pertinentes, tomando en consideración las reglas de descripción y de
+   uso del lenguaje, de catalogación, de composición de consultas\...
+5. Mecanismos de introducción, manipulación y actualización de los
+   datos.
+6. Control de calidad: mecanismos que aseguren la adecuación del
+   contenido de los registros a la realidad, y la satisfacción del
+   usuario.
 
 Puede apreciarse que las cuestiones señaladas resultan similares a las
 vistas en el capítulo dedicado a los SGBD y a la creación de bases de
@@ -295,7 +276,7 @@ electrónica, que tienen como soporte principal bases de datos, siguen
 las normas y principios generales enunciados al tratar las bases de
 datos.
 
-**7.6. Clasificación de las bases de datos.**
+## **7.6. Clasificación de las bases de datos.**
 
 Los distribuidores pueden ofrecer bases de datos de contenido temático
 muy variado: medicina, política, derecho, cultura\... por esta razón
@@ -303,28 +284,22 @@ algunos autores han adoptado una clasificación basada en los trabajos de
 Fundesco (FUNDESCO, 1986) y de otras fuentes, que tienden a clasificar
 las bases de datos según el siguiente esquema:
 
-> 1\. Bases de datos referenciales: son aquellas que ofrecen registros
-> que su vez son representaciones de documentos primarios. Dentro de
-> éstas distinguen, as su vez, entre
->
-> 1.1. bibliográficas: aquellas cuyo contenido son registros de tipo
-> bibliográfico.
->
-> 1.2. directorios: aquellas cuyo contenido está referido a la
-> descripción de otros recursos de información, como por ejemplo un
-> directorio de bases de datos.
->
-> 2\. Bases de datos fuente: serían aquellas bases de datos que ofrecen
-> el documento completo, no una representación del mismo. También
-> distinguen entre:
->
-> 2.1. numéricas: contienen información de tipo numérico, como un censo
-> o indicadores cuantitativos.
->
-> 2.2. textuales: ofrecen el texto completo de un documento.
->
-> 2.3. mixtas: combinan ambos tipos de información, como por ejemplo
-> informes económicos de empresas, datos geoeconómicos, etc.
+1. Bases de datos referenciales: son aquellas que ofrecen registros
+   que su vez son representaciones de documentos primarios. Dentro de
+   éstas distinguen, a su vez, entre
+   1. Bibliográficas: aquellas cuyo contenido son registros de tipo
+      bibliográfico.
+   2. Directorios: aquellas cuyo contenido está referido a la
+      descripción de otros recursos de información, como por ejemplo un
+      directorio de bases de datos.
+2. Bases de datos fuente: serían aquellas bases de datos que ofrecen
+   el documento completo, no una representación del mismo. También
+   distinguen entre:
+   1. Numéricas: contienen información de tipo numérico, como un censo
+      o indicadores cuantitativos.
+   2. Textuales: ofrecen el texto completo de un documento.
+3. Mixtas: combinan ambos tipos de información, como por ejemplo
+   informes económicos de empresas, datos geoeconómicos, etc.
 
 De esta clasificación puede deducirse, evidentemente, que la información
 obtenida podrá ser referencial o factual. Sin embargo, cabe plantear que
@@ -333,29 +308,28 @@ bases de datos, tanto a escala tecnológica como de contenido, como por
 ejemplo las bases de datos multimedia, introducirán variaciones en esta
 clasificación, que deberá adoptar criterios más flexibles.
 
-**7.7. Fases tradicionales de una búsqueda teledocumental.**
+## **7.7. Fases tradicionales de una búsqueda teledocumental.**
 
 La bibliografía ha señalado como clásicas las siguientes fases en la
 ejecución de una búsqueda teledocumental (BATES, 1987):
 
-> 1\. Conexión con el host, identificación del usuario y autorización de
-> acceso.
->
-> 2\. Selección del fichero o ficheros de datos a consultar.
->
-> 3\. Estudio de los descriptores a través de los tesauros.
->
-> 4\. Agrupación de los descriptores sinónimos en diferentes grupos.
->
-> 5\. Establecimiento de las relaciones existentes entre los conjuntos.
->
-> 6\. Combinación de los descriptores que representan a los conjuntos.
->
-> 7\. Formulación y ejecución de la ecuación de búsqueda.
->
-> 8\. Visualización de los registros resultantes.
->
-> 9\. Impresión o importación de los registros.
+1. Conexión con el host, identificación del usuario y autorización de
+   acceso.
+2. Selección del fichero o ficheros de datos a consultar.
+
+3. Estudio de los descriptores a través de los tesauros.
+
+4. Agrupación de los descriptores sinónimos en diferentes grupos.
+
+5. Establecimiento de las relaciones existentes entre los conjuntos.
+
+6. Combinación de los descriptores que representan a los conjuntos.
+
+7. Formulación y ejecución de la ecuación de búsqueda.
+
+8. Visualización de los registros resultantes.
+
+9. Impresión o importación de los registros.
 
 Este esquema tradicional resulta inadecuado en la actualidad (BASCH,
 1993). Una búsqueda de este tipo consume gran cantidad de recursos
@@ -380,30 +354,28 @@ diferentes lenguajes, así como las particularidades de cada sistema, lo
 que supone un inconveniente para la optimización de la recuperación de
 información mediante teledocumentación.
 
-**7.8. Estructura de los registros existentes en los host.**
+## **7.8. Estructura de los registros existentes en los host.**
 
 Los registros que se incluyen en las bases de datos ofrecidas por los
 host suelen ofrecer una estructura muy similar, especialmente los
 contenidos en las bases de datos bibliográficas referenciales (FUNDESCO,
 1986). Las categorías de datos contenidas responden a:
 
-> 1\. Número de identificación del registro.
->
-> 2\. Título.
->
-> 3\. Autor (en ocasiones se diferencia entre el primer autor y el
-> resto).
->
-> 4\. Centro de trabajo (investigación, etc.) en el que se localiza el
-> autor del trabajo.
->
-> 5\. Cita bibliográfica completa (obra, número, año, páginas, etc.)
->
-> 6\. Resumen.
->
-> 7\. Descriptores o encabezamientos.
->
-> 8\. Identificadores.
+1. Número de identificación del registro.
+
+2. Título.
+
+3. Autor (en ocasiones se diferencia entre el primer autor y el
+   resto).
+4. Centro de trabajo (investigación, etc.) en el que se localiza el
+   autor del trabajo.
+5. Cita bibliográfica completa (obra, número, año, páginas, etc.)
+
+6. Resumen.
+
+7. Descriptores o encabezamientos.
+
+8. Identificadores.
 
 De esta forma combinan la necesaria estructuración de la información,
 con las categorías de datos que permiten describen cada uno de los
@@ -411,7 +383,7 @@ recursos de información. La utilización de técnicas de manipulación y
 recuperación de grandes extensiones de texto es similar a la analizada
 al tratar los sistemas de gestión de bases de datos documentales.
 
-**7.9. Servicios complementarios facilitados por los distribuidores.**
+## **7.9. Servicios complementarios facilitados por los distribuidores.**
 
 Los distribuidores o host no suelen limitar sus servicios a la puesta en
 línea para su consulta de las bases de datos. Junto a esas consultas,
@@ -442,8 +414,7 @@ liberalización de la misma, hasta la carga de cuotas por cada documento
 que es visualizado por el usuario, y que por lo tanto puede ser
 susceptible de teledescarga.
 
-**7.10. Ventajas e inconvenientes de la teledocumentación. El estudio
-del coste.**
+## **7.10. Ventajas e inconvenientes de la teledocumentación. El estudio del coste.**
 
 Al igual que todo servicio de acceso a la información, la
 teledocumentación ofrece ventajas e inconvenientes. Como ventajas deben
