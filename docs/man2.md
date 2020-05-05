@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: figs
+---
+
 # **2. LOS SISTEMAS DE BASES DE DATOS Y LOS SGBD.**
 
 ------
@@ -102,7 +106,7 @@ conceptual e interno (KORTH y SILBERSCHATZ, 1994:5; MIGUEL y PIATTINI,
 2. Nivel conceptual: es el nivel medio de abstracción. Se trata de la representación de los datos realizada por la organización, que recoge las vistas parciales de los requerimientos de los diferentes usuarios y las aplicaciones posibles. Se configura como visión organizativa total, e incluye la definición de datos y las relaciones entre ellos.
 3. Nivel externo: es el nivel de mayor abstracción. A este nivel corresponden las diferentes vistas parciales que tienen de la base de datos los diferentes usuarios. En cierto modo, es la parte del modelo conceptual a la que tienen acceso.
 
-![Fig.2.1. Niveles de la arquitectura de bases de datos.](/figs/fig2_1.jpg)
+![](figs/fig2_1.jpg)
 
 En ocasiones puede encontrarse el nivel conceptual divido en dos
 niveles, conceptual y lógico. El primero de ellos corresponde a la
@@ -265,7 +269,7 @@ tarea cualquiera por parte del sistema de gestión de bases de datos
 8. Transferencia de los datos necesarios al área de trabajo del
    usuario.
 
-![Fig.2.2. Arquitectura de un Sistema de Bases de Datos.](/figs/fig2_2.jpg)
+![](/figs/fig2_2.jpg)
 
 ## **2.5. Los usuarios.**
 
