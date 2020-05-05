@@ -21,7 +21,7 @@
 >
 > Formación que no puede circunscribirse al tratamiento de textos o a la
 > creación de sencillas bases de datos: la utilización de interfaces
-> gráficas de usuario, , la proliferación de sistemas de gestión
+> gráficas de usuario, la proliferación de sistemas de gestión
 > documental administrativa, el auge de los hipermedia y de las bases de
 > datos multimedia, de los sistemas expertos y de los sistemas basados
 > en el conocimiento, y más recientemente el avance imparable de las
@@ -32,7 +32,7 @@
 >
 > Esta es la idea que inspira esta *Introducción a la Documática*, como
 > ha sido bautizada en honor de P. Otlet. Ha sido concebida como una
-> guía general de las principales informáticas necesarias para el
+> guía general de las principales herramientas informáticas necesarias para el
 > experto en información y documentación, sin pretender ser exhaustiva,
 > ya que en la actualidad puede encontrarse abundante bibliografía
 > especializada en cada uno de los temas tratados, a la que el lector

@@ -2,7 +2,7 @@
 
 ------
 
-Versión etiquetada en *MarkDown* y publicada en *ReadTheDocs*. Repositorio en *GitHub*.
+Versión etiquetada en *MarkDown* y publicada en *Read The Docs*. Repositorio en *GitHub*.
 
 ## El proyecto.
 
@@ -16,7 +16,7 @@ El lector o lectora que vivió aquellos frenéticos años encontrará capítulos
 
 Se acostumbra a seguir un proceso muy tradicional para elaborar manuales, pero lo cierto es que los procesos de edición basados en autoedición con un procesador de texto no son eficientes en la actualidad. Las técnicas de escritura de documentos técnicos hacen posible simplificar los procesos de composición, y obtener productos de salida en diferentes formatos y plataformas de manera más simple y eficiente.
 
-[Ésta ha sido la aproximación seguida en este producto](https://doi.org/10.3145/thinkepi.2019.e13f03). Los documentos originales se han transformado en documentos de texto etiquetado en *MarkDown*, un lenguaje de etiquetado ligero, con [Pandoc](https://pandoc.org/), se han depositado en una plataforma GIT, en este caso [GitHub](https://github.com/tramullas/Documatica), y  a partir de los documentos fuente se ha generado todo el conjunto de páginas web estáticas, usando el procesador [Sphinx](https://www.sphinx-doc.org/en/master/) de *ReadTheDocs*. Un proceso que consume menos de un segundo.
+[Ésta ha sido la aproximación seguida en este producto](https://doi.org/10.3145/thinkepi.2019.e13f03). Los documentos originales se han transformado  con [Pandoc](https://pandoc.org/) en documentos de texto etiquetado en *MarkDown*, un lenguaje de etiquetado ligero, se han depositado en una plataforma Git, en este caso [GitHub](https://github.com/tramullas/Documatica), y  a partir de los documentos fuente se ha generado todo el conjunto de páginas web estáticas, usando el procesador [MkDocs](https://www.mkdocs.org/) de *Read The Docs*. Un proceso que consume menos de un segundo.
 
 ## La referencia bibliográfica.
 
