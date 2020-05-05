@@ -102,7 +102,7 @@ conceptual e interno (KORTH y SILBERSCHATZ, 1994:5; MIGUEL y PIATTINI,
 2. Nivel conceptual: es el nivel medio de abstracción. Se trata de la representación de los datos realizada por la organización, que recoge las vistas parciales de los requerimientos de los diferentes usuarios y las aplicaciones posibles. Se configura como visión organizativa total, e incluye la definición de datos y las relaciones entre ellos.
 3. Nivel externo: es el nivel de mayor abstracción. A este nivel corresponden las diferentes vistas parciales que tienen de la base de datos los diferentes usuarios. En cierto modo, es la parte del modelo conceptual a la que tienen acceso.
 
-![fig2_1](figs/fig2_1.jpg)
+![fig2_1](/figs/fig2_1.jpg)
 
 Fig.2.1. Niveles de la arquitectura de bases de datos.
 
@@ -267,7 +267,7 @@ tarea cualquiera por parte del sistema de gestión de bases de datos
 8. Transferencia de los datos necesarios al área de trabajo del
    usuario.
 
-![fig2_2](figs/fig2_2.jpg)
+![fig2_2](/figs/fig2_2.jpg)
 
 Fig.2.2. Arquitectura de un Sistema de Bases de Datos.
 
