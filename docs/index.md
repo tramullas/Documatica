@@ -16,9 +16,9 @@ El lector o lectora que vivió aquellos frenéticos años encontrará capítulos
 
 Se acostumbra a seguir un proceso muy tradicional para elaborar manuales, pero lo cierto es que los procesos de edición basados en autoedición con un procesador de texto no son eficientes en la actualidad. Las técnicas de escritura de documentos técnicos hacen posible simplificar los procesos de composición, y obtener productos de salida en diferentes formatos y plataformas de manera más simple y eficiente.
 
-[Ésta ha sido la aproximación seguida en este producto](https://doi.org/10.3145/thinkepi.2019.e13f03). Los documentos originales se han transformado  con [Pandoc](https://pandoc.org/) en documentos de texto etiquetado en *MarkDown*, un lenguaje de etiquetado ligero, se han depositado en una plataforma Git, en este caso [GitHub](https://github.com/tramullas/Documatica), y  a partir de los documentos fuente se ha generado todo el conjunto de páginas web estáticas, usando el procesador [MkDocs](https://www.mkdocs.org/) de *Read The Docs*. Un proceso que consume menos de un segundo.
+[Ésta ha sido la aproximación seguida en este producto](https://doi.org/10.3145/thinkepi.2019.e13f03). Los documentos originales se han transformado  con [Pandoc](https://pandoc.org/) en documentos de texto etiquetado en *MarkDown*, un lenguaje de etiquetado ligero, se han depositado en una plataforma Git, en este caso [GitHub](https://github.com/tramullas/Documatica), y  a partir de los documentos fuente se ha generado todo el conjunto de páginas web estáticas, usando el procesador [MkDocs](https://www.mkdocs.org/) de *Read The Docs*. Un proceso que consume unos segundos.
 
 ## La referencia bibliográfica.
 
-Tramullas, Jesús (2020). *Introducción a la Documática, 1. Teoría.* ReadTheDocs. https://documatica.readthedocs.io
+Tramullas, Jesús (2020). *Introducción a la Documática, 1. Teoría.* Read The Docs. https://documatica.readthedocs.io
 
